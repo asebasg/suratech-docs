@@ -9,10 +9,6 @@
 public static final String NEW_SUBSTATUS = 'Renovación emitida';
 public static final String SUCCESS       = 'success';
 public static final String PROCESSPRODUCT = 'SURAEmisionRenovaciones__c';
-```
-
-**Método de emisión**
-```apex
 public static void emisionCall(String renewalPolicyId, String producto) {
     String proceso = 'SURA_ArrendamientoEmisionCall';
     Type t = Type.forName(proceso);
@@ -30,10 +26,7 @@ public static void emisionCall(String renewalPolicyId, String producto) {
         update new InsurancePolicy(Id = originalPolicyId, Substatus = NEW_SUBSTATUS);
     }
 }
-```
 
-**Invocación**
-```apex
 emisionCall('ID_POLIZA_RENOVACION', 'Arrendamientos');
 ```
 
