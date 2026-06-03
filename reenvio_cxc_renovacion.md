@@ -1,5 +1,13 @@
 # Reenvío de CXC — Póliza de Renovación
 
+> **Nota:** Cambiar el nombre del producto en **plural y en español** según el código de producto:
+>
+> | Código | Producto        |
+> |--------|-----------------|
+> | 51     | Arrendamientos  |
+> | 58     | Viajes          |
+> | 54     | Motos y autos   |
+
 ---
 
 ## 1. Emisión de Póliza de Renovación
@@ -39,14 +47,6 @@ Id jobId = System.enqueueJob(
     new ArriendosLocalEmisionNotificationHandler('ID_POLIZA')
 );
 ```
-
-> **Nota:** Cambiar el nombre del producto en **plural y en español** según el código de producto:
->
-> | Código | Producto        |
-> |--------|-----------------|
-> | 51     | Arrendamientos  |
-> | 58     | Viajes          |
-> | 54     | Motos y autos   |
 
 ---
 
