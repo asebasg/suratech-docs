@@ -12,7 +12,6 @@
 
 ## 1. Emisión de Póliza de Renovación
 
-**Constantes**
 ```apex
 public static final String NEW_SUBSTATUS = 'Renovación emitida';
 public static final String SUCCESS       = 'success';
