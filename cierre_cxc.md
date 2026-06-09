@@ -1,3 +1,7 @@
+# Mensajes de cierre para incidente: Generación de CxC
+
+## 1. Generación de facturas CxC
+
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
 Se recibe caso reportando la incidencia en la generación de CxC, donde inicialmente no se habían emitido todas las facturas requeridas para continuar con el proceso. Se valida la solicitud y se confirma la necesidad de reintento o corrección por parte del sistema SAP.
 
