@@ -2,6 +2,7 @@
 
 ## 1. Generación de facturas CxC
 
+```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
 Se recibe caso reportando la incidencia en la generación de CxC, donde inicialmente no se habían emitido todas las facturas requeridas para continuar con el proceso. Se valida la solicitud y se confirma la necesidad de reintento o corrección por parte del sistema SAP.
 
@@ -10,6 +11,7 @@ En atención al caso reportado, se realizó la verificación del proceso de gene
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 Tras la validación del caso y la confirmación por parte de SAP, se evidenció la generación exitosa de la totalidad de las facturas solicitadas. Con ello, el incidente queda resuelto y el proceso puede continuar con normalidad.
+```
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 
