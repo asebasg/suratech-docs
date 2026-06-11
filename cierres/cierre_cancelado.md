@@ -1,5 +1,7 @@
 # Mensajes de cierre para incidente: Cancelado por falta de respuesta
 
+## Notas de resolución
+
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶𝗼́𝗻: 
 El caso quedó en espera de información adicional por parte del solicitante para poder continuar con la gestión. 
@@ -15,4 +17,10 @@ Reintento de contacto: Se realizan seguimientos sin obtener respuesta.
 Escalado: N/A 
 Se procede con el cierre del caso por falta de información. 
 En caso de requerir continuar con la gestión, se deberá crear un nuevo caso adjuntando la información completa.
+```
+
+## N° Ticket de Origen
+
+```text
+Resuelto por falta de información
 ```
