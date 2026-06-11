@@ -11,7 +11,6 @@ En atención al caso reportado, se realizó la verificación del proceso de gene
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 Tras la validación del caso y la confirmación por parte de SAP, se evidenció la generación exitosa de la totalidad de las facturas solicitadas. Con ello, el incidente queda resuelto y el proceso puede continuar con normalidad.
-```
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 
@@ -20,3 +19,4 @@ Tras la validación del caso y la confirmación por parte de SAP, se evidenció 
 - Confirmación de la generación de todas las facturas solicitadas.
 - Cierre del incidente al quedar restablecido el flujo del proceso.
 - Escalado: N/A
+```
