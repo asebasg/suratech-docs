@@ -31,3 +31,4 @@ Escalado: N/A
 | No se genera carátula                  |
 | No se genera póliza por automatizacion |
 | PQR - Legalización manual SAP          |
+| Cambio de asesor                       |

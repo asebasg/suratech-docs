@@ -21,12 +21,11 @@ Tras la validación del caso y la confirmación por parte de SAP, se evidenció 
 - Escalado: N/A
 ```
 
-## N° Ticket de Origen
+### 14. Reenvio manual de CXC
 
 | Incidente                           |
 | ----------------------------------- |
 | Botón nuevo vehículo                |
-| Cambio de numero de documento       |
 | Cambio tipo de vehículo             |
 | Error con tipo de vehículo          |
 | Falta de codigo plan renovación     |
@@ -36,8 +35,11 @@ Tras la validación del caso y la confirmación por parte de SAP, se evidenció 
 | Sin respuesta de SAP                |
 | Sin actualización de fecha vigencia |
 | Error de región/ciudad              |
-| Error de mapa de campos             |
 | Error de mapeo de campos            |
 | Falta de información al cliente     |
-| No se genera carátula               |
-| Generación de CxC                   |
+| Creación de lead manual             |
+| Factura duplicada                   |
+| Falta de datos lead                 |
+| Falta tipo de servicio              |
+| Poliza antigua eliminada            |
+| Producer vacio                      |
