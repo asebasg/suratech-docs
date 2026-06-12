@@ -23,3 +23,11 @@ Escalado: N/A
 ```
 
 ## N° Ticket de Origen
+
+| Incidente                              |
+| -------------------------------------- |
+| Desfase de un día                      |
+| Error en marcación del lead - 0km      |
+| No se genera carátula                  |
+| No se genera póliza por automatizacion |
+| PQR - Legalización manual SAP          |
