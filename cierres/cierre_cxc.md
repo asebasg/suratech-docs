@@ -20,3 +20,24 @@ Tras la validación del caso y la confirmación por parte de SAP, se evidenció 
 - Cierre del incidente al quedar restablecido el flujo del proceso.
 - Escalado: N/A
 ```
+
+## N° Ticket Origen
+
+| Incidente                           |
+| ----------------------------------- |
+| Botón nuevo vehículo                |
+| Cambio de numero de documento       |
+| Cambio tipo de vehículo             |
+| Error con tipo de vehículo          |
+| Falta de codigo plan renovación     |
+| Generación de CxC                   |
+| No acepta caracter de ciudad        |
+| No se actualiza en SFI              |
+| Sin respuesta de SAP                |
+| Sin actualización de fecha vigencia |
+| Error de región/ciudad              |
+| Error de mapa de campos             |
+| Error de mapeo de campos            |
+| Falta de información al cliente     |
+| No se genera carátula               |
+| Generación de CxC                   |
