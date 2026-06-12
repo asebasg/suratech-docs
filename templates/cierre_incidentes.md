@@ -1,3 +1,4 @@
+```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
 Se recibe caso reportando que la carátula generada quedó con la condición "Usada", siendo el vehículo 0km. Se requería corrección para continuar con el proceso.
 
@@ -13,3 +14,4 @@ Tras la revisión del JSON se identificaron los campos afectados y se procedió 
    • Valor de referencia: actualizado a 7.800.000 COP.
 2. Habilitación de servicio: se regeneró y adjunta la carátula corregida.
 3. Escalado: N/A
+```
