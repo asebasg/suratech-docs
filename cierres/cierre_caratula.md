@@ -1,6 +1,6 @@
 # Mensajes de cierre para incidente: Generación de carátula
 
-## 1. Error en marcación del lead - 0km
+## Notas de resolución
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
@@ -21,3 +21,5 @@ Se adjunta la carátula modificada como soporte de la corrección realizada.
 Cierre del caso al evidenciarse la solución satisfactoria.
 Escalado: N/A
 ```
+
+## N° Ticket de Origen
