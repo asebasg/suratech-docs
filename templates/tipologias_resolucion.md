@@ -9,6 +9,7 @@
 | No se genera carátula                  |
 | No se genera póliza por automatizacion |
 | PQR - Legalización manual SAP          |
+| Cambio de asesor                       |
 
 ### 2. Error en expedición de pólizas
 
@@ -16,7 +17,6 @@
 | ---------------------------------- |
 | Borrado de información             |
 | Cambio de accesorios               |
-| Cambio de valor asegurado          |
 | Cotizaciones en 0                  |
 | Cumulo                             |
 | Error en cobertura duplicadas      |
@@ -31,22 +31,26 @@
 | Poliza cancelada por error         |
 | Tiempo de expedición               |
 | Transacción rechazada por pasarela |
+| Fechas de renovación               |
+| Membresia no activa                |
+| Tiempo notificación de pago        |
 
 ### 3. Error en el ingreso de los datos
 
-| Incidente                      |
-| ------------------------------ |
-| Cambio de correo               |
-| Cambio de datos del asegurado  |
-| Cambio de documento            |
-| Cambio de línea de vehículo    |
-| Cambio de número de documento  |
-| Cambio de valor asegurado      |
-| Datos de Propietario/Inquilino |
-| Error en ingreso de los datos  |
-| No se encuentra información    |
-| No se genera carátula          |
-| Valor de cobro                 |
+| Incidente                       |
+| ------------------------------- |
+| Cambio de correo                |
+| Cambio de datos del asegurado   |
+| Cambio de documento             |
+| Cambio de línea de vehículo     |
+| Cambio de número de documento   |
+| Cambio de valor asegurado       |
+| Datos de Propietario/Inquilino  |
+| Error en ingreso de los datos   |
+| No se encuentra información     |
+| Valor de cobro                  |
+| Cambio datos de valor asegurado |
+| Cambio de teléfono              |
 
 ### 4. Error en cálculo de tarifa
 
@@ -69,31 +73,30 @@
 | --------- |
 | Error 404 |
 
-### 7. Error en proceso de pago cliente
+### 7. Fallo en proceso de pago cliente
 
-| Incidente                         |
-| --------------------------------- |
-| Cambio de asegurado               |
-| Cambio de datos del asegurado     |
-| Cambio de número de documento     |
-| Cambio estado de facturas SFI     |
-| ClariTy- No cargan facturas       |
-| Cumulo                            |
-| Cumulo de renovación              |
-| Cumulo propietario                |
-| Desincronización de estado de cxc |
-| Falta de información en lead      |
-| Fallo en proceso de pago cliente  |
-| Link de facturas                  |
-| No se actualiza respuesta de pago |
-| Pago expirado                     |
-| Pago no aprobado                  |
-| Pago no llega desde P2P           |
-| Poliza cancelada por error        |
-| Rechazo sarlaft pasarela          |
-| Saldo pendiente                   |
-| Sesión de pago pendiente          |
-| Valor de cobro                    |
+| Incidente                               |
+| --------------------------------------- |
+| Cambio estado de facturas SFI           |
+| ClariTy- No cargan facturas             |
+| Cumulo de renovación                    |
+| Cumulo propietario                      |
+| Desincronización de estado de cxc       |
+| Falta de información en lead            |
+| Fallo en proceso de pago cliente        |
+| Link de facturas                        |
+| No se actualiza respuesta de pago       |
+| Pago expirado                           |
+| Pago no aprobado                        |
+| Pago no llega desde P2P                 |
+| Rechazo sarlaft pasarela                |
+| Saldo pendiente                         |
+| Sesión de pago pendiente                |
+| Cruce de pagos                          |
+| Error de remora contrato inquilino      |
+| Error link de retoma contrato inquilino |
+| Pago adicional                          |
+| Puntoje TU                              |
 
 ### 8. Error en la página inicial
 
@@ -103,17 +106,12 @@
 
 ### 9. Error en la actualización póliza
 
-| Incidente        |
-| ---------------- |
-| Error en riesgos |
+| Incidente                     |
+| ----------------------------- |
+| Error en riesgos              |
+| Vencimiento URL de renovación |
 
-### 10. Fallo en proceso de pago cliente
-
-| Incidente                              |
-| -------------------------------------- |
-| (Varios duplicados ya listados arriba) |
-
-### 11. No esta validando políticas
+### 10. No esta validando políticas
 
 | Incidente                         |
 | --------------------------------- |
@@ -122,7 +120,7 @@
 | No esta validando políticas       |
 | Validación score renovación       |
 
-### 12. No genera lead
+### 11. No genera lead
 
 | Incidente                             |
 | ------------------------------------- |
@@ -130,7 +128,7 @@
 | Lead/cotización eliminado por usuario |
 | No genera lead                        |
 
-### 13. No permite cotizar
+### 12. No permite cotizar
 
 | Incidente                       |
 | ------------------------------- |
@@ -138,20 +136,22 @@
 | Fallo en el cotizador           |
 | No permite cotizar              |
 | No pasa vehículo por antigüedad |
+| Asociar Lead a Quote            |
+| Bug 37626 - No permite cotizar  |
+| Renovación vencida              |
 
-### 14. No permite ingresar/visualizar datos
+### 13. No permite ingresar/visualizar datos
 
 | Incidente            |
 | -------------------- |
 | Falta tipo documento |
 | Valor fasecolda      |
 
-### 15. Reenvio manual de CXC
+### 14. Reenvio manual de CXC
 
 | Incidente                           |
 | ----------------------------------- |
 | Botón nuevo vehículo                |
-| Cambio de numero de documento       |
 | Cambio tipo de vehículo             |
 | Error con tipo de vehículo          |
 | Falta de codigo plan renovación     |
@@ -161,54 +161,37 @@
 | Sin respuesta de SAP                |
 | Sin actualización de fecha vigencia |
 | Error de región/ciudad              |
-| Error de mapa de campos             |
 | Error de mapeo de campos            |
 | Falta de información al cliente     |
-| No se genera carátula               |
-| Generación de CxC                   |
+| Creación de lead manual             |
+| Factura duplicada                   |
+| Falta de datos lead                 |
+| Falta tipo de servicio              |
+| Poliza antigua eliminada            |
+| Producer vacio                      |
 
-### 16. Otras causas (menos frecuentes)
+### 15. Error al seleccionar plan
 
-| Incidente                               | Causa                            |
-| --------------------------------------- | -------------------------------- |
-| Asociar Lead a Quote                    | No permite cotizar               |
-| Bug 37626 - No permite cotizar          | No permite cotizar               |
-| Cambio de asesor                        | Error en envío de carátula       |
-| Carátula sin Oneroso                    | -                                |
-| Caso Clarity-Asesor                     | -                                |
-| Cambio datos de valor asegurado         | Error en el ingreso de los datos |
-| Cancelar recibos de poliza no activa    | -                                |
-| Cancelar póliza duplicada               | -                                |
-| Cambio de teléfono                      | Error en el ingreso de los datos |
-| Cambio de valor asegurado               | Error en el ingreso de los datos |
-| Creación de lead manual                 | Reenvio manual de CXC            |
-| Creacion errónea de producer            | -                                |
-| Cruce de pagos                          | Fallo en proceso de pago cliente |
-| Devolución - PQR                        | -                                |
-| Error de remora contrato inquilino      | Fallo en proceso de pago cliente |
-| Error link de retoma contrato inquilino | Fallo en proceso de pago cliente |
-| Error visibility fecha vigencia         | Error al seleccionar plan        |
-| Factura duplicada                       | Reenvio manual de CXC            |
-| Falta de datos lead                     | Reenvio manual de CXC            |
-| Falta tipo de servicio                  | Reenvio manual de CXC            |
-| Fechas de renovación                    | Error en expedición de pólizas   |
-| Membresia no activa                     | Error en expedición de pólizas   |
-| No es error – consulta operativa        | -                                |
-| No ingresa a flujo de pagos             | -                                |
-| No se genera póliza por automatizacion  | Error en envío de carátula       |
-| Notificación doble de pago              | -                                |
-| Pago adicional                          | Fallo en proceso de pago cliente |
-| Poliza antigua eliminada                | Reenvio manual de CXC            |
-| Producer vacio                          | Reenvio manual de CXC            |
-| Puntoje TU                              | Fallo en proceso de pago cliente |
-| Quota eliminada                         | -                                |
-| Renovación vencida                      | No permite cotizar               |
-| Resultado por falta de información      | -                                |
-| Servicio caído                          | -                                |
-| Sin actualización de fecha vigencia     | -                                |
-| Sin actualizar respuesta de pago        | Fallo en proceso de pago cliente |
-| Taut Código fasecolda                   | -                                |
-| Telefono inquilino no era tipo texto    | -                                |
-| Tiempo notificación de pago             | Error en expedición de pólizas   |
-| Validación de caracteres en nombre      | -                                |
-| Vencimiento URL de renovación           | Fallo en la actualización póliza |
+| Incidente                       |
+| ------------------------------- |
+| Error visibility fecha vigencia |
+
+### 16. Sin clasificar / requiere revisión
+
+| Incidente                            |
+| ------------------------------------ |
+| Carátula sin Oneroso                 |
+| Caso Clarity-Asesor                  |
+| Cancelar recibos de poliza no activa |
+| Cancelar póliza duplicada            |
+| Creacion errónea de producer         |
+| Devolución - PQR                     |
+| No es error – consulta operativa     |
+| No ingresa a flujo de pagos          |
+| Notificación doble de pago           |
+| Quota eliminada                      |
+| Resultado por falta de información   |
+| Servicio caído                       |
+| Taut Código fasecolda                |
+| Telefono inquilino no era tipo texto |
+| Validación de caracteres en nombre   |
