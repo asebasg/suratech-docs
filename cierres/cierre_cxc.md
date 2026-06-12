@@ -1,6 +1,6 @@
 # Mensajes de cierre para incidente: Generación de CxC
 
-## 1. Generación de facturas CxC
+## Notas de resolución
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
@@ -21,7 +21,7 @@ Tras la validación del caso y la confirmación por parte de SAP, se evidenció 
 - Escalado: N/A
 ```
 
-## N° Ticket Origen
+## N° Ticket de Origen
 
 | Incidente                           |
 | ----------------------------------- |
