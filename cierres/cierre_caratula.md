@@ -5,7 +5,7 @@
 | Tipología |
 | --- |
 | [Desfase de un día](#desfase-de-un-día) |
-| [Error en marcación del lead - 0km](#error-en-marcación-del-lead---0km) |
+| [Error en marcación del lead - 0km](#error-en-marcación) |
 | [No se genera carátula](#no-se-genera-carátula) |
 | [No se genera póliza por automatización](#no-se-genera-póliza-por-automatización) |
 | [PQR - Legalización manual SAP](#pqr---legalización-manual-sap) |
