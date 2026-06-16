@@ -1,6 +1,68 @@
 # Mensajes de cierre para incidente: Generación de carátula
 
-## Notas de resolución
+## Tabla de Tipologías de Resolución
+
+| Tipología |
+| --- |
+| [Desfase de un día](#desfase-de-un-día) |
+| [Error en marcación del lead - 0km](#error-en-marcación-del-lead---0km) |
+| [No se genera carátula](#no-se-genera-carátula) |
+| [No se genera póliza por automatización](#no-se-genera-póliza-por-automatización) |
+| [PQR - Legalización manual SAP](#pqr---legalización-manual-sap) |
+| [Cambio de asesor](#cambio-de-asesor) |
+
+---
+
+## Desfase de un día
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+
+Se reciben 4 pólizas distintas reportando inconsistencia en la generación de carátulas, debido a desfases en las fechas de vigencia de los seguros. Se requería la investigación y corrección de las fechas para garantizar la precisión de la información y continuar con el proceso.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+
+En atención al caso reportado, se realizó la validación de la información utilizada en la generación de las carátulas, identificando que los campos correspondientes a las fechas de vigencia de los seguros se encontraban parametrizados de forma incorrecta en las 4 pólizas, presentando desfases que no correspondían a las fechas reales de vigencia.
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+
+Tras la revisión del caso, se efectuó satisfactoriamente la corrección de las fechas de vigencia en las 4 pólizas, actualizando la información para reflejar las fechas correctas. Posteriormente, se generaron las carátulas modificadas con los datos correctos.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
+- Validación de la información registrada en la generación de las carátulas.
+- Corrección de los campos correspondientes a las fechas de vigencia en las 4 pólizas.
+- Generación de las carátulas actualizadas con la información correcta.
+- Se adjuntan las carátulas corregidas como soporte de la resolución.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+
+Escalado: N/A
+```
+
+## Error en marcación
+
+### Error en marcación del lead
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se recibe caso reportando inconsistencia en la generación de la carátula, debido a que el cliente fue registrado con el nombre errado, lo cual se refleja en el documento. Se requería la corrección del nombre para garantizar la precisión de la información y continuar con el proceso.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+En atención al caso reportado, se realizó la validación de la información utilizada en la generación de la carátula, identificando que el campo correspondiente al nombre del cliente se encontraba parametrizado de forma incorrecta en Salesforce, registrando un nombre que no correspondía al cliente real.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Tras la revisión del caso, se procedió a realizar la búsqueda y corrección del nombre del cliente en Salesforce, actualizando el Lead, el Account y el Insurance Policy Participants con la información correcta. Posteriormente, se generó la carátula modificada con el nombre correcto.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Validación de la información registrada en Salesforce.
+- Búsqueda y corrección del nombre del cliente en el Lead.
+- Corrección del nombre en el Account.
+- Corrección del nombre en el Insurance Policy Participants.
+- Generación de la carátula actualizada con la información correcta.
+- Se adjunta la carátula corregida como soporte de la resolución.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+
+Escalado: N/A
+```
+
+### Error en marcación 0km
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
@@ -13,22 +75,34 @@ En atención al caso reportado, se realizó la validación de la información ut
 Tras la revisión del caso, se efectuó satisfactoriamente la corrección del dato correspondiente a la condición del vehículo, actualizando la información para reflejar que no es 0 km. Posteriormente, se generó la carátula modificada con el dato correcto.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-
-Validación de la información registrada en la generación de la carátula.
-Corrección del campo correspondiente a la condición del vehículo, cambiando de “Sí es 0 km” a “No es 0 km”.
-Generación de la carátula actualizada con la información correcta.
-Se adjunta la carátula modificada como soporte de la corrección realizada.
-Cierre del caso al evidenciarse la solución satisfactoria.
-Escalado: N/A
+- Validación de la información registrada en la generación de la carátula.
+- Corrección del campo correspondiente a la condición del vehículo, cambiando de "Sí es 0 km" a "No es 0 km".
+- Generación de la carátula actualizada con la información correcta.
+- Se adjunta la carátula modificada como soporte de la corrección realizada.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+- Escalado: N/A
 ```
 
-## N° Ticket de Origen
+## No se genera carátula
 
-| Incidente                              |
-| -------------------------------------- |
-| Desfase de un día                      |
-| Error en marcación del lead - 0km      |
-| No se genera carátula                  |
-| No se genera póliza por automatizacion |
-| PQR - Legalización manual SAP          |
-| Cambio de asesor                       |
+```text
+No se ha proporcionado descripción aún
+```
+
+## No se genera póliza por automatización
+
+```text
+No se ha proporcionado descripción aún
+```
+
+## PQR - Legalización manual SAP
+
+```text
+No se ha proporcionado descripción aún
+```
+
+## Cambio de asesor
+
+```text
+No se ha proporcionado descripción aún
+```
