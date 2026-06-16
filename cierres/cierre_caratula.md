@@ -22,6 +22,30 @@ Cierre del caso al evidenciarse la solución satisfactoria.
 Escalado: N/A
 ```
 
+## Notas de resolución (error de marcación de lead)
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+
+Se recibe caso reportando inconsistencia en la generación de la carátula, debido a que el cliente fue registrado con el nombre errado, lo cual se refleja en el documento. Se requería la corrección del nombre para garantizar la precisión de la información y continuar con el proceso.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+
+En atención al caso reportado, se realizó la validación de la información utilizada en la generación de la carátula, identificando que el campo correspondiente al nombre del cliente se encontraba parametrizado de forma incorrecta en Salesforce, registrando un nombre que no correspondía al cliente real.
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+
+Tras la revisión del caso, se procedió a realizar la búsqueda y corrección del nombre del cliente en Salesforce, actualizando el Lead, el Account y el Insurance Policy Participants con la información correcta. Posteriormente, se generó la carátula modificada con el nombre correcto.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
+- Validación de la información registrada en Salesforce.
+- Búsqueda y corrección del nombre del cliente en el Lead.
+- Corrección del nombre en el Account.
+- Corrección del nombre en el Insurance Policy Participants.
+- Generación de la carátula actualizada con la información correcta.
+- Se adjunta la carátula corregida como soporte de la resolución.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+
+Escalado: N/A
+```
+
 ## Notas de resolución (desfase de un día)
 
 ```text
