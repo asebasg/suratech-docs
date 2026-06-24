@@ -10,6 +10,7 @@
 | [No se genera póliza por automatización](#no-se-genera-póliza-por-automatización) |
 | [PQR - Legalización manual SAP](#pqr---legalización-manual-sap) |
 | [Cambio de asesor](#cambio-de-asesor) |
+| [No llegan documentos al cliente](#no-le-llegan-documentos-al-cliente) |
 
 ---
 
@@ -105,4 +106,28 @@ No se ha proporcionado descripción aún
 
 ```text
 No se ha proporcionado descripción aún
+```
+
+## No le llegan documentos al cliente
+
+```text
+Resumen de la situación:
+
+Se recibe caso por cliente inconforme al no haber recibido la documentación asociada a su póliza. Se solicita verificar si el envío fue realizado y, de no ser así, identificar el motivo.
+Causa Raíz Identificada:
+
+Tras la revisión en la plataforma, se confirma que los archivos de la carátula y el contrato fueron generados correctamente; sin embargo, no fueron enviados al cliente debido a posibles intermitencias en el servicio al momento del despacho de la documentación.
+Resultado de la validación:
+
+Se verifica la existencia de ambos documentos en la póliza. Dado que el fallo correspondió al proceso de envío y no a la generación de los archivos, se procede con el reenvío manual de la documentación al cliente como medida de resolución.
+Acciones realizadas:
+
+Consulta y validación del estado de la póliza en la plataforma.
+Confirmación de existencia de la carátula y el contrato en el registro.
+Identificación de intermitencia en el servicio como causa del no envío.
+Envío manual de la carátula y el contrato al cliente.
+Se adjuntan ambos documentos como soporte de la resolución.
+Cierre del caso al evidenciarse la solución satisfactoria.
+
+Escalado: N/A
 ```
