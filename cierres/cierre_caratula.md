@@ -5,12 +5,12 @@
 | Tipología |
 | --- |
 | [Desfase de un día](#desfase-de-un-día) |
-| [Error en marcación del lead - 0km](#error-en-marcación) |
+| [Error en marcación del lead - 0km](#error-en-marcación-del-lead---0km) |
 | [No se genera carátula](#no-se-genera-carátula) |
 | [No se genera póliza por automatización](#no-se-genera-póliza-por-automatización) |
 | [PQR - Legalización manual SAP](#pqr---legalización-manual-sap) |
 | [Cambio de asesor](#cambio-de-asesor) |
-| [No llegan documentos al cliente](#no-le-llegan-documentos-al-cliente) |
+| [No llegan documentos al cliente](#no-llegan-documentos-al-cliente) |
 
 ---
 
@@ -18,14 +18,14 @@
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-
 Se reciben 4 pólizas distintas reportando inconsistencia en la generación de carátulas, debido a desfases en las fechas de vigencia de los seguros. Se requería la investigación y corrección de las fechas para garantizar la precisión de la información y continuar con el proceso.
+
 𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-
 En atención al caso reportado, se realizó la validación de la información utilizada en la generación de las carátulas, identificando que los campos correspondientes a las fechas de vigencia de los seguros se encontraban parametrizados de forma incorrecta en las 4 pólizas, presentando desfases que no correspondían a las fechas reales de vigencia.
-𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 Tras la revisión del caso, se efectuó satisfactoriamente la corrección de las fechas de vigencia en las 4 pólizas, actualizando la información para reflejar las fechas correctas. Posteriormente, se generaron las carátulas modificadas con los datos correctos.
+
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 
 - Validación de la información registrada en la generación de las carátulas.
@@ -33,11 +33,10 @@ Tras la revisión del caso, se efectuó satisfactoriamente la corrección de las
 - Generación de las carátulas actualizadas con la información correcta.
 - Se adjuntan las carátulas corregidas como soporte de la resolución.
 - Cierre del caso al evidenciarse la solución satisfactoria.
-
-Escalado: N/A
+- Escalado: N/A
 ```
 
-## Error en marcación
+## Error en marcación del lead - 0km
 
 ### Error en marcación del lead
 
@@ -52,6 +51,7 @@ En atención al caso reportado, se realizó la validación de la información ut
 Tras la revisión del caso, se procedió a realizar la búsqueda y corrección del nombre del cliente en Salesforce, actualizando el Lead, el Account y el Insurance Policy Participants con la información correcta. Posteriormente, se generó la carátula modificada con el nombre correcto.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
 - Validación de la información registrada en Salesforce.
 - Búsqueda y corrección del nombre del cliente en el Lead.
 - Corrección del nombre en el Account.
@@ -59,8 +59,7 @@ Tras la revisión del caso, se procedió a realizar la búsqueda y corrección d
 - Generación de la carátula actualizada con la información correcta.
 - Se adjunta la carátula corregida como soporte de la resolución.
 - Cierre del caso al evidenciarse la solución satisfactoria.
-
-Escalado: N/A
+- Escalado: N/A
 ```
 
 ### Error en marcación 0km
@@ -76,6 +75,7 @@ En atención al caso reportado, se realizó la validación de la información ut
 Tras la revisión del caso, se efectuó satisfactoriamente la corrección del dato correspondiente a la condición del vehículo, actualizando la información para reflejar que no es 0 km. Posteriormente, se generó la carátula modificada con el dato correcto.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
 - Validación de la información registrada en la generación de la carátula.
 - Corrección del campo correspondiente a la condición del vehículo, cambiando de "Sí es 0 km" a "No es 0 km".
 - Generación de la carátula actualizada con la información correcta.
@@ -108,26 +108,25 @@ No se ha proporcionado descripción aún
 No se ha proporcionado descripción aún
 ```
 
-## No le llegan documentos al cliente
+## No llegan documentos al cliente
 
 ```text
-Resumen de la situación:
-
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
 Se recibe caso por cliente inconforme al no haber recibido la documentación asociada a su póliza. Se solicita verificar si el envío fue realizado y, de no ser así, identificar el motivo.
-Causa Raíz Identificada:
 
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
 Tras la revisión en la plataforma, se confirma que los archivos de la carátula y el contrato fueron generados correctamente; sin embargo, no fueron enviados al cliente debido a posibles intermitencias en el servicio al momento del despacho de la documentación.
-Resultado de la validación:
 
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 Se verifica la existencia de ambos documentos en la póliza. Dado que el fallo correspondió al proceso de envío y no a la generación de los archivos, se procede con el reenvío manual de la documentación al cliente como medida de resolución.
-Acciones realizadas:
 
-Consulta y validación del estado de la póliza en la plataforma.
-Confirmación de existencia de la carátula y el contrato en el registro.
-Identificación de intermitencia en el servicio como causa del no envío.
-Envío manual de la carátula y el contrato al cliente.
-Se adjuntan ambos documentos como soporte de la resolución.
-Cierre del caso al evidenciarse la solución satisfactoria.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 
-Escalado: N/A
+- Consulta y validación del estado de la póliza en la plataforma.
+- Confirmación de existencia de la carátula y el contrato en el registro.
+- Identificación de intermitencia en el servicio como causa del no envío.
+- Envío manual de la carátula y el contrato al cliente.
+- Se adjuntan ambos documentos como soporte de la resolución.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+- Escalado: N/A
 ```
