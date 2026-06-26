@@ -1,6 +1,6 @@
 # Expedir poliza
 
-***Nota:** Se debe cambiar la ID de la cotización (quote) al momento de enviar el script. Se puede obtener desde el enlace o desde el SF Inspector Reloader**
+***Nota:** Se debe cambiar la ID de la cotización (quote) al momento de enviar el script. Se puede obtener desde el enlace o desde el SF Inspector Reloader*
 
 ```apex
  Quote prepoliza = [SELECT Id, vlocity_ins__EffectiveDate__c, vlocity_ins_fsc__PrimaryProducerId__c, SURALead__c, SURAFamiliaProducto__c FROM Quote WHERE Id = '0Q0Qo00000uaWnVKAU' Limit 1];
