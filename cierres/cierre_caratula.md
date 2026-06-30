@@ -87,7 +87,24 @@ Tras la revisión del caso, se efectuó satisfactoriamente la corrección del da
 ## No se genera carátula
 
 ```text
-No se ha proporcionado descripción aún
+Resumen de la situación:
+Se recibe caso por cliente inconforme al no haber recibido la carátula de su póliza. Se solicita verificar si el documento fue enviado y, de no ser así, identificar el motivo.
+
+Causa Raíz Identificada:
+Tras la revisión en SFI, se determina que la carátula no había sido generada, posiblemente debido a intermitencias en el sistema al momento del proceso de emisión, lo que impidió su creación y posterior envío al cliente.
+
+Resultado de la validación:
+Se confirma la ausencia del documento en el sistema. Se procede con la generación manual de la carátula, verificando que la información sea correcta, y se adjunta al incidente como soporte de la resolución.
+
+Acciones realizadas:
+- Revisión y validación del estado de la carátula en SFI.
+- Identificación de ausencia del documento por posibles intermitencias en el sistema.
+- Generación manual de la carátula.
+- Verificación de la información registrada en el documento generado.
+- Se adjunta la carátula como soporte de la resolución.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+
+Escalado: N/A
 ```
 
 ## No se genera póliza por automatización
