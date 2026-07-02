@@ -1,5 +1,16 @@
-Datos para la tabla: 
-1. No existen datos en Fasecolda
+# Mensajes de cierre para incidente: Cotización en cero
+
+## Tabla de Tipologías de Resolución
+
+| Tipología |
+| --- |
+| [No existen datos en Fasecolda](#no-existen-datos-en-fasecolda) |
+| [Falla conexión RUNT](#falla-conexión-runt) |
+
+---
+
+## No existen datos en Fasecolda
+
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶𝗼́𝗻:
 Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
@@ -11,6 +22,7 @@ El error se debe a una respuesta del servicio externo de Fasecolda que no es con
 Se forzó la actualización del lead ingresando nuevamente por el flujo normal del proceso. Luego de esto, la información del vehículo se completó correctamente, los datos quedaron normalizados y fue posible generar las cotizaciones con valor de manera exitosa.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
 - Revisión del lead asociado al caso.
 - Validación del requerimiento registrado.
 - Identificación de respuesta de servicio externo (Fasecolda).
@@ -19,11 +31,10 @@ Se forzó la actualización del lead ingresando nuevamente por el flujo normal d
 - Verificación de carga correcta de los datos del vehículo.
 - Generación y validación de cotizaciones con valor.
 - Cierre del caso al evidenciarse la solución satisfactoria.
-
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+- Escalado: N/A
 ```
-2. Falla conexion RUNT
+
+## Falla conexión RUNT
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶𝗼́𝗻:
@@ -36,7 +47,8 @@ Debido a la ausencia de estos datos, no fue posible generar inicialmente las cot
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶𝗼́𝗻:
 Se forzó la actualización del lead ingresando nuevamente por el flujo normal del proceso. Luego de esto, la información del vehículo se completó correctamente, los datos quedaron normalizados y fue posible generar las cotizaciones con valor de manera exitosa.
 
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝘆 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
 - Revisión del lead asociado al caso.
 - Validación del requerimiento registrado.
 - Identificación de falla de conexión con RUNT.
@@ -44,14 +56,6 @@ Se forzó la actualización del lead ingresando nuevamente por el flujo normal d
 - Actualización del lead mediante ingreso al flujo normal.
 - Verificación de carga correcta de los datos del vehículo.
 - Generación y validación de cotizaciones con valor.
-
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Validación del caso reportado.
-- Revisión del estado del lead y del requerimiento asociado.
-- Actualización del lead por flujo normal.
-- Verificación de datos del vehículo.
-- Generación exitosa de cotizaciones.
-
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+- Escalado: N/A
 ```
