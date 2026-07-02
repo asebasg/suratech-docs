@@ -1,3 +1,7 @@
+Datos para la tabla: 
+1. No existen datos en Fasecolda
+2. Falla conexion RUNT
+
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶𝗼́𝗻:
 Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
