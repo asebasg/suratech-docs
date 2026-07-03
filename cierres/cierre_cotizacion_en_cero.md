@@ -12,26 +12,24 @@
 ## No existen datos en Fasecolda
 
 ```text
-𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶𝗼́𝗻:
-Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información, el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮𝗶́𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-El error se debe a una respuesta del servicio externo de Fasecolda que no es controlable internamente. La placa del vehículo es nueva y aún no ha sido incluida en la guía de valores de Fasecolda, aunque ya aparezca registrada en el RUNT. Esta limitación impide que el sistema genere las cotizaciones con valor.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+La placa del vehículo no se encuentra registrada en la base de datos de Fasecolda. Aunque el vehículo aparezca en el RUNT, el registro de Fasecolda es gestionado por la entidad externa y no es controlable desde nuestro equipo de soporte. Sin este registro en Fasecolda, el sistema no puede generar cotizaciones con valor.
 
-𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶𝗼́𝗻:
-Se forzó la actualización del lead ingresando nuevamente por el flujo normal del proceso. Luego de esto, la información del vehículo se completó correctamente, los datos quedaron normalizados y fue posible generar las cotizaciones con valor de manera exitosa.
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se validó el caso y se confirmó que la placa no existe en los registros de Fasecolda. Por lo anterior, no es posible generar cotizaciones en este momento. Se recomienda esperar a que Fasecolda actualice su base de datos con el nuevo registro del vehículo.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-
 - Revisión del lead asociado al caso.
-- Validación del requerimiento registrado.
-- Identificación de respuesta de servicio externo (Fasecolda).
-- Confirmación de placa nueva no incluida en guía de valores.
-- Actualización del lead mediante ingreso al flujo normal.
-- Verificación de carga correcta de los datos del vehículo.
-- Generación y validación de cotizaciones con valor.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+- Validación del registro de la placa en sistema.
+- Confirmación de ausencia en registros de Fasecolda.
+- Información al asesor sobre limitación externa.
+- Cierre del caso al evidenciarse que la solución depende de actualización de Fasecolda.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Falla conexión RUNT
