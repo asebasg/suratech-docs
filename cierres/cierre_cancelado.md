@@ -1,5 +1,9 @@
 # Mensajes de cierre para incidente: Cancelado por falta de respuesta
 
+| Tipología |
+| --- |
+| Resuelto por falta de información |
+
 ---
 
 ## Notas de resolución
@@ -22,12 +26,4 @@ No es posible continuar sin información necesaria.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
-```
-
----
-
-## N° Ticket de Origen
-
-```text
-Resuelto por falta de información
 ```
