@@ -41,7 +41,23 @@ No se ha proporcionado descripción aún
 ## Cotizaciones en 0
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se recibe caso informando que el cliente realizó el pago de su póliza; sin embargo, esta no fue convertida ni emitida de forma automática tras el pago.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Tras la validación, se identifica que la póliza no se encontraba emitida en la plataforma, por lo que el proceso de conversión no se completó de manera automática luego del pago registrado por el cliente.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se accede al Quote correspondiente y se procede con la expedición manual de la póliza, quedando emitida correctamente.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
+- Validación del estado de la póliza en la plataforma.
+- Identificación de póliza no emitida tras el pago del cliente.
+- Ingreso al Quote correspondiente.
+- Expedición manual de la póliza.
+- Cierre del caso al evidenciarse la solución satisfactoria.
+- Escalado: N/A
 ```
 
 ## Cumulo
@@ -71,23 +87,7 @@ No se ha proporcionado descripción aún
 ## Expedición manual erronea
 
 ```text
-𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se recibe caso informando que el cliente realizó el pago de su póliza; sin embargo, esta no fue convertida ni emitida de forma automática tras el pago.
-
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Tras la validación, se identifica que la póliza no se encontraba emitida en la plataforma, por lo que el proceso de conversión no se completó de manera automática luego del pago registrado por el cliente.
-
-𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se accede al Quote correspondiente y se procede con la expedición manual de la póliza, quedando emitida correctamente.
-
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-
-- Validación del estado de la póliza en la plataforma.
-- Identificación de póliza no emitida tras el pago del cliente.
-- Ingreso al Quote correspondiente.
-- Expedición manual de la póliza.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+No se ha proporcionado descripción aun
 ```
 
 ## Falta de actualización Fasecolda
