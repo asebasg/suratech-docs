@@ -58,7 +58,23 @@ No se ha proporcionado descripción aún
 ## Datos de Propietario/Inquilino
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+[Descripción del error reportado en carátula/contrato]
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+[Explicación: información corregida en JSON del lead pero no sincronizada en IPA/campos correspondientes]
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se actualizó [campo específico] con información correcta. Se regeneró documento con datos precisos.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Identificación del error.
+- Corrección en [registro/campo].
+- Regeneración de documento.
+- Se adjunta documento corregido.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Error en ingreso de los datos
@@ -76,7 +92,22 @@ No se ha proporcionado descripción aún
 ## Valor de cobro
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+[Descripción del error al cambiar código Fasecolda]
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Validación de código Fasecolda no coincidía con valor ingresado.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se actualizó lead con valor correcto [monto].
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Acceso al lead.
+- Corrección código y valor.
+- Validación exitosa.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Cambio datos de valor asegurado
