@@ -18,22 +18,22 @@
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se reciben 4 pólizas distintas reportando inconsistencia en la generación de carátulas, debido a desfases en las fechas de vigencia de los seguros. Se requería la investigación y corrección de las fechas para garantizar la precisión de la información y continuar con el proceso.
+X pólizas con desfases en fechas de vigencia en carátulas.
 
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-En atención al caso reportado, se realizó la validación de la información utilizada en la generación de las carátulas, identificando que los campos correspondientes a las fechas de vigencia de los seguros se encontraban parametrizados de forma incorrecta en las 4 pólizas, presentando desfases que no correspondían a las fechas reales de vigencia.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Fechas de vigencia parametrizadas incorrectamente en las 4 pólizas.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Tras la revisión del caso, se efectuó satisfactoriamente la corrección de las fechas de vigencia en las 4 pólizas, actualizando la información para reflejar las fechas correctas. Posteriormente, se generaron las carátulas modificadas con los datos correctos.
+Fechas corregidas. Carátulas regeneradas con datos correctos.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Validación carátulas.
+- Corrección fechas 4 pólizas.
+- Carátulas actualizadas.
+- Se adjuntan corregidas.
 
-- Validación de la información registrada en la generación de las carátulas.
-- Corrección de los campos correspondientes a las fechas de vigencia en las 4 pólizas.
-- Generación de las carátulas actualizadas con la información correcta.
-- Se adjuntan las carátulas corregidas como soporte de la resolución.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Error en marcación del lead - 0km
@@ -42,69 +42,63 @@ Tras la revisión del caso, se efectuó satisfactoriamente la corrección de las
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se recibe caso reportando inconsistencia en la generación de la carátula, debido a que el cliente fue registrado con el nombre errado, lo cual se refleja en el documento. Se requería la corrección del nombre para garantizar la precisión de la información y continuar con el proceso.
+Nombre cliente incorrecto en carátula.
 
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-En atención al caso reportado, se realizó la validación de la información utilizada en la generación de la carátula, identificando que el campo correspondiente al nombre del cliente se encontraba parametrizado de forma incorrecta en Salesforce, registrando un nombre que no correspondía al cliente real.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Campo nombre parametrizado incorrectamente en Salesforce.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Tras la revisión del caso, se procedió a realizar la búsqueda y corrección del nombre del cliente en Salesforce, actualizando el Lead, el Account y el Insurance Policy Participants con la información correcta. Posteriormente, se generó la carátula modificada con el nombre correcto.
+Nombre corregido en Lead, Account e IPA. Carátula regenerada.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Corrección nombre registros.
+- Carátula actualizada.
+- Se adjunta corregida.
 
-- Validación de la información registrada en Salesforce.
-- Búsqueda y corrección del nombre del cliente en el Lead.
-- Corrección del nombre en el Account.
-- Corrección del nombre en el Insurance Policy Participants.
-- Generación de la carátula actualizada con la información correcta.
-- Se adjunta la carátula corregida como soporte de la resolución.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ### Error en marcación 0km
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se recibe caso reportando inconsistencia en la generación de la carátula, debido a que el vehículo fue registrado con la condición de que sí era 0 km, cuando en realidad no correspondía a un vehículo 0 km. Se requería la corrección para garantizar la precisión de la información y continuar con el proceso.
+Vehículo registrado como 0 km siendo usado.
 
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-En atención al caso reportado, se realizó la validación de la información utilizada en la generación de la carátula, identificando que el campo correspondiente a la condición 0 km se encontraba parametrizado de forma incorrecta, registrando el vehículo como sí 0 km cuando su condición real era no 0 km.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Condición 0 km parametrizada incorrectamente.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Tras la revisión del caso, se efectuó satisfactoriamente la corrección del dato correspondiente a la condición del vehículo, actualizando la información para reflejar que no es 0 km. Posteriormente, se generó la carátula modificada con el dato correcto.
+Corregido a no 0 km. Carátula regenerada.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Corrección condición vehículo.
+- Carátula actualizada.
+- Se adjunta corregida.
 
-- Validación de la información registrada en la generación de la carátula.
-- Corrección del campo correspondiente a la condición del vehículo, cambiando de "Sí es 0 km" a "No es 0 km".
-- Generación de la carátula actualizada con la información correcta.
-- Se adjunta la carátula modificada como soporte de la corrección realizada.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## No se genera carátula
 
 ```text
-Resumen de la situación:
-Se recibe caso por cliente inconforme al no haber recibido la carátula de su póliza. Se solicita verificar si el documento fue enviado y, de no ser así, identificar el motivo.
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Cliente no recibió carátula de póliza.
 
-Causa Raíz Identificada:
-Tras la revisión en SFI, se determina que la carátula no había sido generada, posiblemente debido a intermitencias en el sistema al momento del proceso de emisión, lo que impidió su creación y posterior envío al cliente.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Carátula no generada por intermitencias en sistema.
 
-Resultado de la validación:
-Se confirma la ausencia del documento en el sistema. Se procede con la generación manual de la carátula, verificando que la información sea correcta, y se adjunta al incidente como soporte de la resolución.
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Generada manualmente y verificada.
 
-Acciones realizadas:
-- Revisión y validación del estado de la carátula en SFI.
-- Identificación de ausencia del documento por posibles intermitencias en el sistema.
-- Generación manual de la carátula.
-- Verificación de la información registrada en el documento generado.
-- Se adjunta la carátula como soporte de la resolución.
-- Cierre del caso al evidenciarse la solución satisfactoria.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Revisión en SFI.
+- Generación manual.
+- Se adjunta carátula.
 
-Escalado: N/A
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## No se genera póliza por automatización
@@ -129,21 +123,19 @@ No se ha proporcionado descripción aún
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se recibe caso por cliente inconforme al no haber recibido la documentación asociada a su póliza. Se solicita verificar si el envío fue realizado y, de no ser así, identificar el motivo.
+Cliente no recibió carátula y contrato.
 
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Tras la revisión en la plataforma, se confirma que los archivos de la carátula y el contrato fueron generados correctamente; sin embargo, no fueron enviados al cliente debido a posibles intermitencias en el servicio al momento del despacho de la documentación.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Documentos generados correctamente pero no enviados por intermitencias en servicio.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se verifica la existencia de ambos documentos en la póliza. Dado que el fallo correspondió al proceso de envío y no a la generación de los archivos, se procede con el reenvío manual de la documentación al cliente como medida de resolución.
+Documentos verificados. Reenviados manualmente al cliente.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Validación póliza.
+- Envío manual.
+- Se adjuntan documentos.
 
-- Consulta y validación del estado de la póliza en la plataforma.
-- Confirmación de existencia de la carátula y el contrato en el registro.
-- Identificación de intermitencia en el servicio como causa del no envío.
-- Envío manual de la carátula y el contrato al cliente.
-- Se adjuntan ambos documentos como soporte de la resolución.
-- Cierre del caso al evidenciarse la solución satisfactoria.
-- Escalado: N/A
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
