@@ -44,20 +44,18 @@ No se ha proporcionado descripción aún
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información, el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
+[Descripción del inconveniente al cotizar]
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-La placa del vehículo no se encuentra registrada en la base de datos de Fasecolda. Aunque el vehículo aparezca en el RUNT, el registro de Fasecolda es gestionado por la entidad externa y no es controlable desde nuestro equipo de soporte. Sin este registro en Fasecolda, el sistema no puede generar cotizaciones con valor.
+Placa no registrada en Fasecolda. Limitación externa no controlable por soporte.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se validó el caso y se confirmó que la placa no existe en los registros de Fasecolda. Por lo anterior, no es posible generar cotizaciones en este momento. Se recomienda esperar a que Fasecolda actualice su base de datos con el nuevo registro del vehículo.
+No es posible generar cotizaciones. Se requiere actualización de Fasecolda.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión del lead asociado al caso.
-- Validación del registro de la placa en sistema.
-- Confirmación de ausencia en registros de Fasecolda.
-- Información al asesor sobre limitación externa.
-- Cierre del caso al evidenciarse que la solución depende de actualización de Fasecolda.
+- Validación del lead.
+- Confirmación ausencia en Fasecolda.
+- Cierre del caso.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
@@ -69,22 +67,20 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
+[Error en cotización con valores en 0]
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Se evidenció una falla de conexión con RUNT que impidió completar la información del vehículo, necesaria para el proceso de tarificación.
+Falla de conexión con RUNT impidió completar datos del vehículo.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se forzó la actualización del lead ingresando nuevamente por el flujo normal. Los datos se normalizaron y se generaron las cotizaciones con valor exitosamente. El lead puede continuar con su gestión normal.
+Lead actualizado, datos normalizados, cotizaciones generadas exitosamente.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión del lead asociado al caso.
-- Validación del requerimiento registrado.
-- Identificación de falla de conexión con RUNT.
-- Actualización del lead mediante flujo normal.
-- Verificación de carga correcta de datos del vehículo.
-- Generación y validación de cotizaciones con valor.
-- Cierre del caso al evidenciarse la solución satisfactoria.
+- Revisión del lead.
+- Identificación falla RUNT.
+- Actualización mediante flujo normal.
+- Generación cotizaciones.
+- Cierre del caso.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
@@ -94,20 +90,19 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se reporta inconveniente al momento de cotizar, ya que al diligenciar la información el sistema presenta error en la cotización y los valores en pantalla principal se visualizan en 0.
+[Error en cotización con valores en 0]
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Se evidenció una falla de conexión con RUNT que impidió completar la información del vehículo, necesaria para el proceso de tarificación.
+Falla de conexión con RUNT impidió completar datos del vehículo.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se creó un nuevo lead con los valores actualizados debido al error en la consulta hacia RUNT. Se completaron todos los campos obligatorios para que el proceso continúe sin inconvenientes. Continúe la gestión únicamente con este nuevo registro: [URL DEL NUEVO LEAD]
+Nuevo lead creado con datos completos. Continúe gestión en: [URL]
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión del lead original y del error asociado.
-- Identificación de falla de conexión con RUNT.
-- Creación de nuevo lead con valores actualizados.
-- Diligenciamiento de campos obligatorios.
-- Cierre del caso al evidenciarse la solución satisfactoria.
+- Identificación falla RUNT.
+- Creación nuevo lead.
+- Diligenciamiento campos obligatorios.
+- Cierre del caso.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
