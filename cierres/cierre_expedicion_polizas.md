@@ -153,7 +153,24 @@ No se ha proporcionado descripción aún
 ## Lead no se convierte
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Cliente pagó pero póliza no se convierte ni genera carátula.
+
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Póliza no expedida automáticamente tras pago. Proceso conversión no completado.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Póliza expedida manualmente. Estado pago actualizado a "Aprobado". Lead convertido exitosamente.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Verificación transacción SFI.
+- Validación cotización y pago.
+- Expedición manual póliza.
+- Actualización estado pago.
+- Conversión lead.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## No se replica error
