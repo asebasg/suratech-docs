@@ -1,0 +1,4 @@
+SELECT Id, vlocity_ins_fsc__InsurancePolicyId__r.Name, SURANumeroDocumentoPago__c, vlocity_ins_fsc__Status__c, vlocity_ins_fsc__IsPaid__c, SURAStatusIntegration__c, SURATextoMensaje__c, vlocity_ins_fsc__ScheduleDate__c, SURAFamiliaProducto__c, FORMAT(CreatedDate), FORMAT(LastModifiedDate)
+FROM vlocity_ins_fsc__InsurancePolicyPaymentScheduleEntry__c 
+WHERE (SURAStatusIntegration__c='ErrorGeneracionFactura') AND vlocity_ins_fsc__InsurancePolicyId__r.status = 'Emitida'
+ORDER BY vlocity_ins_fsc__ScheduleDate__c DESC

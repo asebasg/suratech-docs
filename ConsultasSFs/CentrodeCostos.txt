@@ -1,0 +1,3 @@
+SELECT CreatedDate, Id, Name, Producer.SURACodigo__c, SuraCentroCosto__c, SURAOficina__c, SURAFamiliaProducto__c
+FROM InsurancePolicy 
+WHERE Status = 'Emitida' 
