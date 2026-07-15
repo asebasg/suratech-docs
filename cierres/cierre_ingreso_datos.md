@@ -16,6 +16,7 @@
 | [Valor de cobro](#valor-de-cobro) |
 | [Cambio datos de valor asegurado](#cambio-datos-de-valor-asegurado) |
 | [Cambio de teléfono](#cambio-de-teléfono) |
+| [Valor fasecolda](#valor-fasecolda) |
 
 ---
 
@@ -132,6 +133,27 @@ Número corregido a [numero de telefono]. Carátula regenerada con información 
 - Verificación lead.
 - Corrección número celular.
 - Generación carátula actualizada.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
+```
+
+## Valor fasecolda
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Código Fasecolda 34217027 genera error: valor no permitido.
+
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Valor en SFI era 10.000.000 cuando debería ser 14.100.000.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Valor corregido a 14.100.000 en SFI. Error resuelto.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Verificación valor en SFI.
+- Corrección a 14.100.000.
+- Se adjunta comprobación.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
