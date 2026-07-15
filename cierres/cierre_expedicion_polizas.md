@@ -67,19 +67,19 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-[Error en cotización con valores en 0]
+Error en cotización con valores en 0.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
 Falla de conexión con RUNT impidió completar datos del vehículo.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Lead actualizado, datos normalizados, cotizaciones generadas exitosamente.
+Recotización realizada desde sura.co exitosamente. Proceso completado sin inconvenientes.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 - Revisión del lead.
 - Identificación falla RUNT.
-- Actualización mediante flujo normal.
-- Generación cotizaciones.
+- Recotización desde sura.co.
+- Generación de cotizaciones exitosa.
 - Cierre del caso.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
