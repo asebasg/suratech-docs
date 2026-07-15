@@ -1,0 +1,22 @@
+SELECT 
+    Id, 
+    SURAPrepolizaId__c, 
+    SURAEstadoProcesoDePago__c, 
+    SURADescripcionProcesoDePago__c, 
+    SURAFamiliaProducto__c, 
+    SURAPolizaEmitida__c, 
+    SURAPolizaActiva__c, 
+    FORMAT(CreatedDate), 
+    FORMAT(vlocity_ins__EffectiveDate__c),  
+    vlocity_ins__TotalAmount__c
+FROM Quote 
+WHERE SURAPrepolizaId__c IN ('512300050406',
+'512300050908',
+'584410078129',
+'584410078136',
+'584410078205',
+'512300050629',
+'512300051183',
+'512300051255',
+'512300051204'
+)

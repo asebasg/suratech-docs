@@ -1,0 +1,12 @@
+SELECT Id, Name, NameInsuredId, Sura_LimiteIndemnizacion__c, SURAUrlRenovacion__c, Sura_PagosPendientes__c, SURAPoliticasRenovacion__c, SURAScoreRenovacion__c, 
+                NameInsured.SURANumeroIdentificacion__c, SURAFamiliaProducto__c, SURATomador__c, SURATomador__r.SURANumeroIdentificacion__c, SourceQuote.SURALead__c,
+                SourceQuote.SURALead__r.SURAIdentificadorEjecucion__c, ExpirationDate
+            FROM InsurancePolicy 
+            WHERE ExpirationDate > TODAY 
+            AND ExpirationDate <= 2026-07-30T17:41:17.807-05:00 
+            AND Sura_LimiteIndemnizacion__c = 'Si'
+            AND Sura_PagosPendientes__c = 'No'
+            AND SURAFamiliaProducto__c = 'Arrendamientos'
+            AND SURAFamiliaProducto__c != ''
+            AND SURAPoliticasRenovacion__c = 'Pasa Riesgos'
+            AND Status = 'Emitida'

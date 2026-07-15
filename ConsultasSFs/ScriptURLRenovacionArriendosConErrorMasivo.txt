@@ -1,0 +1,63 @@
+String SCORE_ERROR_RENOVACION = 'Error de integración';
+Integer diasMinimosDeRenovacion = getCachedDiasMinimosDeRenovacion();
+Date fechaLimiteRenovacion = Date.today().addDays(diasMinimosDeRenovacion);
+List<InsurancePolicy> policyList = [SELECT Id, Name, NameInsuredId, Sura_LimiteIndemnizacion__c, Sura_PagosPendientes__c, SURAPoliticasRenovacion__c, SURAScoreRenovacion__c, SURAUrlRenovacion__c, 
+                NameInsured.SURANumeroIdentificacion__c, SURAFamiliaProducto__c, SURATomador__c, SURATomador__r.SURANumeroIdentificacion__c, SourceQuote.SURALead__c,
+                SourceQuote.SURALead__r.SURAIdentificadorEjecucion__c, ExpirationDate
+            FROM InsurancePolicy 
+            WHERE ExpirationDate > :Date.today()
+            AND ExpirationDate <= :fechaLimiteRenovacion
+            AND Sura_LimiteIndemnizacion__c = 'Si'
+            AND Sura_PagosPendientes__c = 'No'
+            AND SURAFamiliaProducto__c = 'Arrendamientos'
+            AND SURAFamiliaProducto__c != ''
+            AND SURAPoliticasRenovacion__c = 'Pasa Riesgos'
+            AND Status = 'Emitida'
+      ];
+
+List<InsurancePolicy> filteredPolicies = new List<InsurancePolicy>();
+
+        for (InsurancePolicy policy : policyList) {
+            if ((policy.SURAScoreRenovacion__c == null || 
+                policy.SURAScoreRenovacion__c.trim() == '' || 
+                policy.SURAScoreRenovacion__c == SCORE_ERROR_RENOVACION) && 
+                filteredPolicies.size() < 15) {
+                filteredPolicies.add(policy);
+            }
+        }
+
+        System.debug(filteredPolicies.size());
+
+Integer batchSize = 5;
+Integer endIndex = 0;
+for (Integer i = 0; i < filteredPolicies.size(); i += batchSize) {
+    List<InsurancePolicy> subListPolicies = new List<InsurancePolicy>();
+    List<String> IdSubListPolicies = new List<String>();
+
+    for (Integer j = i; j < Math.min(i + batchSize, filteredPolicies.size()); j++) {
+      subListPolicies.add(filteredPolicies[j]);
+      IdSubListPolicies.add(filteredPolicies[j].Name);
+      endIndex = j;
+    }
+
+        try {
+            System.enqueueJob(
+                new SURA_RateServiceQueueable(
+                    subListPolicies,
+                    new Map<String, Object>(),
+                    new List<InsurancePolicy>()
+                )
+            );
+
+            System.debug('Se encoló job para bloque de pólizas desde índice ' + i + ' hasta ' + (endIndex - 1));
+      System.debug('Lista de polizas: ' + IdSubListPolicies);
+        } catch (Exception e) {
+            System.debug('Error al encolar bloque desde índice ' + i + ' hasta ' + (endIndex - 1) + ': ' + e.getMessage());
+      System.debug('Lista de polizas con error: ' + IdSubListPolicies);
+    }
+}
+
+private Integer getCachedDiasMinimosDeRenovacion() {
+        Sura_Renovaciones__mdt consultaRiesgo = [SELECT Dias_minimos_de_renovacion__c FROM Sura_Renovaciones__mdt WHERE DeveloperName = 'Consulta_Riesgo' LIMIT 1];
+        return consultaRiesgo.Dias_minimos_de_renovacion__c.IntValue();
+    }

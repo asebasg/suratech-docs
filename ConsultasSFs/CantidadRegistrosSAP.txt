@@ -1,0 +1,4 @@
+SELECT SURAStatusIntegration__c, COUNT(Id)
+FROM vlocity_ins_fsc__InsurancePolicyPaymentScheduleEntry__c
+WHERE LastModifiedDate >= LAST_N_DAYS:10
+GROUP BY SURAStatusIntegration__c
