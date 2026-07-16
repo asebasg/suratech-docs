@@ -1,4 +1,5 @@
-# Reenvío de CXC — Pólizas y Renovaciones
+# Envío y Reenvío de CXC
+## Pólizas y Renovaciones
 
 Este documento contiene los scripts de Apex y consultas SOQL necesarios para gestionar y retransmitir los procesos de Cuentas por Cobrar (CXC), emisiones de renovación y carátulas según el producto.
 
