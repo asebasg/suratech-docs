@@ -59,7 +59,7 @@ Nombre corregido en Lead, Account e IPA. Carátula regenerada.
 N/A.
 ```
 
-### Error en marcación 0km
+### Error en marcación 0km en vehículo
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
