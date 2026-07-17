@@ -63,18 +63,21 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Vehículo registrado como 0 km siendo usado.
+Vehículo registrado como 0 km en carátula y documentación cuando corresponde a motocicleta usada.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Condición 0 km parametrizada incorrectamente.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗰𝗮𝗱𝗮:
+Campo "Condición 0 km" en lead parametrizado como "Sí" cuando debería ser "No". Esta inconsistencia se reflejó en carátula y contrato generados.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Corregido a no 0 km. Carátula regenerada.
+Campo "Condición 0 km" corregido a "No" en lead. Carátula y contrato regenerados con información correcta.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Corrección condición vehículo.
-- Carátula actualizada.
-- Se adjunta corregida.
+- Revisión lead y documentación.
+- Identificación inconsistencia condición vehículo.
+- Corrección campo "Condición 0 km" a "No".
+- Regeneración carátula con datos correctos.
+- Regeneración contrato con datos correctos.
+- Se adjunta documentación corregida.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
