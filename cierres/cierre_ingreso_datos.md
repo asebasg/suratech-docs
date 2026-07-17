@@ -16,7 +16,7 @@
 | [Valor de cobro](#valor-de-cobro) |
 | [Cambio datos de valor asegurado](#cambio-datos-de-valor-asegurado) |
 | [Cambio de teléfono](#cambio-de-teléfono) |
-| [Valor fasecolda](#valor-fasecolda) |
+| [Valor fasecolda en cotización](#valor-fasecolda-en-cotización) |
 
 ---
 
