@@ -1,1 +1,0 @@
-envioCXCManual.envioCXC('ID_CXC');

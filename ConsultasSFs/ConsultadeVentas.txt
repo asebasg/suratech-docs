@@ -1,3 +1,0 @@
-SELECT Id, name, SURAFamiliaProducto__c, FORMAT(CreatedDate), CreatedBy.Name
-FROM InsurancePolicy
-WHERE CreatedDate = TODAY
