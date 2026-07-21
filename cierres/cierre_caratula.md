@@ -4,7 +4,7 @@
 
 | Tipología |
 | --- |
-| [Desfase de un día](#desfase-de-un-día) |
+| [Error en fechas de vigencia de polizas](#error-en-fechas-de-vigencia-de-polizas) |
 | [Error en marcación del lead - 0km](#error-en-marcación-del-lead---0km) |
 | [No se genera carátula](#no-se-genera-carátula) |
 | [No se genera póliza por automatización](#no-se-genera-póliza-por-automatización) |
@@ -18,19 +18,20 @@
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-X pólizas con desfases en fechas de vigencia en carátulas.
+3 pólizas presentan discrepancias en fechas de vigencia entre carátulas y datos registrados en sistema.
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Fechas de vigencia parametrizadas incorrectamente en las 4 pólizas.
+Campos de fecha inicio y fecha fin de vigencia parametrizados incorrectamente en leads de las 3 pólizas, generando carátulas con datos inconsistentes respecto a la información contractual.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Fechas corregidas. Carátulas regeneradas con datos correctos.
+Fechas de vigencia corregidas en leads de las 3 pólizas. Carátulas regeneradas con información de vigencia correcta y consistente.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Validación carátulas.
-- Corrección fechas 4 pólizas.
-- Carátulas actualizadas.
-- Se adjuntan corregidas.
+- Revisión carátulas 3 pólizas.
+- Identificación desfases fechas vigencia.
+- Corrección fecha inicio y fecha fin en leads.
+- Regeneración carátulas con datos correctos.
+- Se adjuntan carátulas corregidas.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
