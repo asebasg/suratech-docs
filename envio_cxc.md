@@ -111,22 +111,13 @@ Para retransmitir la cuenta por cobrar (CXC) en renovaciones de otros ramos (com
 envioCXCManual.envioCXC('ID_CXC');
 ```
 
-O si se desea hacer un envío en masa, hacer lo siguiente:
+## 4. Envío CXC en masa
+
+Obtener las IDs de las pólizas y enviar este script.
 
 ```apex
 Set<Id> policyIds = new Set<Id> {
-    'a70Qo00000Gxkwr',
-    'a70Qo00000Gxkws',
-    'a70Qo00000Gxkwt',
-    'a70Qo00000Gxkwu',
-    'a70Qo00000Gxkwv',
-    'a70Qo00000Gxkww',
-    'a70Qo00000Gxkwx',
-    'a70Qo00000Gxkwy',
-    'a70Qo00000Gxkwz',
-    'a70Qo00000Gxkx0',
-    'a70Qo00000Gxkx1',
-    'a70Qo00000Gxkx2'
+'a70Qo00000CB6UlIAL',
 };
 
 for (Id polId : policyIds) {
