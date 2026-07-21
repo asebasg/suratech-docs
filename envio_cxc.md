@@ -111,6 +111,35 @@ Para retransmitir la cuenta por cobrar (CXC) en renovaciones de otros ramos (com
 envioCXCManual.envioCXC('ID_CXC');
 ```
 
+O si se desea hacer un envío en masa, hacer lo siguiente:
+
+```apex
+Set<Id> policyIds = new Set<Id> {
+    'a70Qo00000Gxkwr',
+    'a70Qo00000Gxkws',
+    'a70Qo00000Gxkwt',
+    'a70Qo00000Gxkwu',
+    'a70Qo00000Gxkwv',
+    'a70Qo00000Gxkww',
+    'a70Qo00000Gxkwx',
+    'a70Qo00000Gxkwy',
+    'a70Qo00000Gxkwz',
+    'a70Qo00000Gxkx0',
+    'a70Qo00000Gxkx1',
+    'a70Qo00000Gxkx2'
+};
+
+for (Id polId : policyIds) {
+    envioCXCManual.envioCXC(polId);
+}
+```
+
+### Instrucciones de uso
+
+1. Identifique el ID de la cuenta por cobrar (registro de `vlocity_ins_fsc__InsurancePolicyPaymentScheduleEntry__c`).
+2. Reemplace `Set<Id> { 'polId' }` con cada identificador en el script.
+3. Ejecútelo en la consola anónima de Apex.
+
 ---
 
 ## 4. Consultas y Procesos de Apoyo
