@@ -14,7 +14,7 @@
 
 ---
 
-## Desfase de un día
+## Error en fechas de vigencia de polizas
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
