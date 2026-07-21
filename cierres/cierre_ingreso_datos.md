@@ -17,6 +17,7 @@
 | [Cambio datos de valor asegurado](#cambio-datos-de-valor-asegurado) |
 | [Cambio de teléfono](#cambio-de-teléfono) |
 | [Valor fasecolda en cotización](#valor-fasecolda-en-cotización) |
+| [Error en fechas de vigencia de póliza](#error-en-fechas-de-vigencia-de-póliza) |
 
 ---
 
@@ -176,6 +177,29 @@ Valor comercial actualizado a 14.100.000 en SFI. Sistema acepta código Fasecold
 - Corrección valor comercial a 14.100.000.
 - Validación aceptación código Fasecolda.
 - Se adjunta comprobación cambio.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
+```
+
+## Error en fechas de vigencia de póliza
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Carátula presenta fecha incorrecta de finalización del seguro.
+
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Fecha de vencimiento registrada como 01/08/2027 cuando debería ser 10/08/2027 en lead.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Fecha de vigencia y vencimiento corregidas a 10/08/2027. Carátula regenerada con información correcta.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘡𝗮𝗱𝗮𝘀:
+- Validación fecha en carátula.
+- Corrección fecha vencimiento a 10/08/2027.
+- Actualización fecha vigencia.
+- Regeneración carátula con datos correctos.
+- Se adjunta carátula corregida.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
