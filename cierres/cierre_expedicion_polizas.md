@@ -44,17 +44,19 @@ No se ha proporcionado descripción aún
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-[Descripción del inconveniente al cotizar]
+Al intentar cotizar, sistema muestra error y valores en 0 en pantalla principal.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Placa no registrada en Fasecolda. Limitación externa no controlable por soporte.
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Placa del vehículo no existe registrada en guía de valores de Fasecolda. Aunque el vehículo aparezca en RUNT, Fasecolda aún no ha incluido este registro en su base de datos, limitación externa no controlable por soporte.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-No es posible generar cotizaciones. Se requiere actualización de Fasecolda.
+Recotización manual desde sura.colombia confirmó ausencia de valor en guía Fasecolda. No es posible generar cotizaciones hasta que Fasecolda actualice su base de datos.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Validación del lead.
-- Confirmación ausencia en Fasecolda.
+- Revisión lead y requerimiento.
+- Validación placa en RUNT.
+- Recotización manual sura.colombia.
+- Confirmación ausencia valor en Fasecolda.
 - Cierre del caso.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
