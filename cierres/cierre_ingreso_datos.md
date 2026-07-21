@@ -41,7 +41,27 @@ No se ha proporcionado descripción aún
 ## Cambio de línea de vehículo
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Carátula no coincide con información de cotización realizada: línea y código Fasecolda incorrectos.
+
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Lead y asset de póliza registraban línea diferente y código Fasecolda errado (no coincidían con cotización original).
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Lead y asset actualizados con información correcta: línea SUZUKI GIXXER 250 y código Fasecolda 08817172. Carátula regenerada con datos correctos.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Revisión cotización y carátula.
+- Acceso lead.
+- Corrección línea a SUZUKI GIXXER 250.
+- Corrección código Fasecolda a 08817172.
+- Acceso asset póliza.
+- Actualización información vehicular.
+- Regeneración carátula con datos correctos.
+- Se adjunta carátula corregida.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Cambio de número de documento
