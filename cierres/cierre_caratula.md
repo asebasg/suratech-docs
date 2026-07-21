@@ -18,16 +18,16 @@
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-3 pólizas presentan discrepancias en fechas de vigencia entre carátulas y datos registrados en sistema.
+X pólizas presentan discrepancias en fechas de vigencia entre carátulas y datos registrados en sistema.
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Campos de fecha inicio y fecha fin de vigencia parametrizados incorrectamente en leads de las 3 pólizas, generando carátulas con datos inconsistentes respecto a la información contractual.
+Campos de fecha inicio y fecha fin de vigencia parametrizados incorrectamente en leads de las X pólizas, generando carátulas con datos inconsistentes respecto a la información contractual.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
 Fechas de vigencia corregidas en leads de las 3 pólizas. Carátulas regeneradas con información de vigencia correcta y consistente.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión carátulas 3 pólizas.
+- Revisión carátulas X pólizas.
 - Identificación desfases fechas vigencia.
 - Corrección fecha inicio y fecha fin en leads.
 - Regeneración carátulas con datos correctos.
