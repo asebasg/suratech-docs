@@ -162,19 +162,22 @@ N/A.
 ## Valor fasecolda en cotización
 
 ```text
-𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘶𝗮𝗰𝗶ó𝗻:
-Código Fasecolda genera error: valor no permitido.
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Sistema rechaza código Fasecolda al intentar cotizar con mensaje "valor no permitido".
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Valor en SFI no coincide con código Fasecolda registrado.
+Valor comercial del inmueble/vehículo registrado en SFI no corresponde al valor asociado en base de datos de Fasecolda. Validación rechaza cotización por inconsistencia entre código y valor.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Valor corregido en SFI. Error resuelto.
+Valor actualizado en SFI para coincidir con código Fasecolda. Sistema acepta código y permite cotización sin errores.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘡𝗮𝗱𝗮𝘀:
-- Verificación valor en SFI.
-- Corrección valor.
-- Se adjunta comprobación.
+- Revisión código Fasecolda en SFI.
+- Verificación valor registrado.
+- Identificación inconsistencia valor-código.
+- Corrección valor en SFI.
+- Validación aceptación código Fasecolda.
+- Se adjunta comprobación cambio.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
