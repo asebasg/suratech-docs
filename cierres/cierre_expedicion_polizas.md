@@ -63,7 +63,7 @@ Recotización manual desde sura.colombia confirmó ausencia de valor en guía Fa
 N/A.
 ```
 
-### Falla conexión RUNT
+### RUNT con mensaje de respuesta de error
 
 #### Mensaje (sin URL de nuevo lead)
 
