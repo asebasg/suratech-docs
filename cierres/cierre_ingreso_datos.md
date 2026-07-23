@@ -17,7 +17,7 @@
 | [Cambio datos de valor asegurado](#cambio-datos-de-valor-asegurado) |
 | [Cambio de teléfono](#cambio-de-teléfono) |
 | [Valor fasecolda en cotización](#valor-fasecolda-en-cotización) |
-| [Error en fecha de vigencia/vencimiento](#error-en-fecha-de-vigencia/vencimiento) |
+| [Error en fecha de vigencia/vencimiento](##error-en-fecha-de-vigenciavencimiento) |
 
 ---
 
