@@ -7,7 +7,7 @@
 | [Borrado de información](#borrado-de-información) |
 | [Cambio de accesorios](#cambio-de-accesorios) |
 | [Cotizaciones en 0](#cotizaciones-en-0) |
-| [Cumulo](#cumulo) |
+| [Error de renovación por cúmulo](#error-de-renovación-por-cúmulo) |
 | [Error en cobertura duplicadas](#error-en-cobertura-duplicadas) |
 | [Error en fechas](#error-en-fechas) |
 | [Error por falta de correo](#error-por-falta-de-correo) |
@@ -111,10 +111,25 @@ Nuevo lead creado con datos completos. Continúe gestión en: [URL]
 N/A.
 ```
 
-## Cumulo
+## Error de renovación por cúmulo
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Cliente solicitó renovación de póliza, sin embargo el sistema mostró estado "ESTADO_DESCARTADO", impidiendo procesar la renovación.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘵𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Las fechas de renovación en SFI no coincidían, causando que el sistema rechazara la solicitud de renovación.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se verificó en SFI que las fechas de renovación existen y están en orden. Se confirmó que la póliza está en condiciones de ser renovada y se procede a reenviar la solicitud de renovación al sistema.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Verificación de las fechas de renovación de la póliza en SFI.
+2. Validación de que las fechas existen y están en orden.
+3. Reenvío de la solicitud de renovación al sistema.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Error en cobertura duplicadas
