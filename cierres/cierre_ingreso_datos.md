@@ -183,7 +183,7 @@ Valor actualizado en SFI para coincidir con código Fasecolda. Sistema acepta c�
 N/A.
 ```
 
-## Error en fechas de vigencia de póliza
+## Error en fecha de vigencia/vencimiento
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
