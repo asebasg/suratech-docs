@@ -24,7 +24,22 @@
 ## Cambio de correo
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se reportó que la carátula de la póliza presentaba un correo electrónico errado y se solicitó corregir a [CORREO_CORRECTO].
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+El correo estaba diligenciado de forma incorrecta en el sistema como "[CORREO_INCORRECTO]" en lugar de "[CORREO_CORRECTO]" (error tipográfico o de digitación).
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se revisó en SFI y se concluyó que el correo estaba diligenciado de manera correcta como [CORREO_CORRECTO], confirmando que la corrección ya se encontraba aplicada en el sistema.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Revisión del correo electrónico en SFI.
+2. Validación de que el correo estaba correctamente actualizado.
+3. Cierre del caso al evidenciarse la solución satisfactoria.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Cambio de datos del asegurado
