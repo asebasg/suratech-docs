@@ -187,18 +187,19 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Carátula presenta fecha incorrecta de finalización del seguro.
+Carátula presenta fechas incorrectas de vigencia del seguro.
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Fecha de vencimiento registrada como 01/08/2027 cuando debería ser 10/08/2027 en lead.
+Campos de fecha inicio y fecha fin de vigencia registrados incorrectamente en lead. Información no coincide con lo solicitado por el cliente.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Fecha de vigencia y vencimiento corregidas a 10/08/2027. Carátula regenerada con información correcta.
+Fechas de inicio y fin de vigencia corregidas en lead. Carátula regenerada con información de vigencia correcta.
 
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘡𝗮𝗱𝗮𝘀:
-- Validación fecha en carátula.
-- Corrección fecha vencimiento a 10/08/2027.
-- Actualización fecha vigencia.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Revisión lead y carátula.
+- Identificación fechas incorrectas.
+- Corrección fecha inicio vigencia.
+- Corrección fecha fin vigencia.
 - Regeneración carátula con datos correctos.
 - Se adjunta carátula corregida.
 
