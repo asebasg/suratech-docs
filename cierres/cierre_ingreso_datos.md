@@ -89,7 +89,25 @@ No se ha proporcionado descripción aún
 ## Cambio de valor asegurado
 
 ```text
-No se ha proporcionado descripción aún
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se solicitó corrección del valor asegurado y de referencia en carátula. La póliza registraba un valor superior al solicitado.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+El valor asegurado estaba desactualizado en múltiples registros: JSON del lead, Asset de la póliza y plan de cotización, generando inconsistencia en la carátula.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se verificó en SFI el valor correcto y se actualizaron todos los registros con el valor asegurado de $[VALOR_CORRECTO]. Se regeneró la carátula con los datos precisos.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Verificación del valor asegurado en SFI.
+2. Corrección de JSON del lead.
+3. Actualización de valor en Asset de la póliza.
+4. Corrección de valor en plan de cotización.
+5. Regeneración de carátula con datos actualizados.
+6. Se adjunta carátula corregida.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
 
 ## Datos de Propietario/Inquilino
