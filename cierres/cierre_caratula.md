@@ -88,18 +88,20 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Cliente no recibió carátula de póliza.
+Se reportó que el cliente no recibió la carátula de su póliza tras la expedición en el sistema, impidiendo que contara con la documentación oficial de su cobertura.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Carátula no generada por intermitencias en sistema.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+La carátula no se generó automáticamente en el sistema debido a intermitencias en el servicio que interrumpieron el proceso de generación y distribución automática del documento al cliente.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Generada manualmente y verificada.
+Se verificó en SFI que la póliza está en condiciones de generar carátula. Se procedió a generar manualmente el documento con los datos del sistema y se validó que la información sea precisa y completa antes de su distribución.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión en SFI.
-- Generación manual.
-- Se adjunta carátula.
+1. Revisión en SFI del estado de la póliza.
+2. Confirmación de que la póliza está apta para generar carátula.
+3. Generación manual de carátula con datos del sistema.
+4. Validación de información completa y precisa en el documento.
+5. Se adjunta carátula generada para distribución al cliente.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
