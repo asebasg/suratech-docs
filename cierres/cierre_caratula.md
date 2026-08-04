@@ -103,6 +103,9 @@ Se verificó en SFI que la póliza está en condiciones de generar carátula. Se
 4. Validación de información completa y precisa en el documento.
 5. Se adjunta carátula generada para distribución al cliente.
 
+𝗡𝗼𝘁𝗮 𝗽𝗮𝗿𝗮 𝗹𝗼𝘀 𝗮𝘀𝗲𝘀𝗼𝗿𝗲𝘀:
+Ustedes mismos pueden generar carátulas desde el botón que se encuentra en la póliza. Esta funcionalidad permite agilizar el proceso sin necesidad de escalamiento. (Se adjunta captura de pantalla con la ubicación del botón).
+
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
 ```
