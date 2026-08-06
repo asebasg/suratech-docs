@@ -44,23 +44,23 @@ No se ha proporcionado descripción aún
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Al intentar cotizar, sistema muestra error y valores en 0 en pantalla principal.
+Cliente reporta incapacidad para cotizar vehículo (motocicleta). Sistema presenta error durante el proceso y visualiza valores en 0 en pantalla principal. El vehículo existe en la plataforma, pero no puede completarse la cotización.
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Placa del vehículo no existe registrada en guía de valores de Fasecolda. Aunque el vehículo aparezca en RUNT, Fasecolda aún no ha incluido este registro en su base de datos, limitación externa no controlable por soporte.
+La placa del vehículo no se encuentra registrada en la guía de valores de Fasecolda (asociación que gestiona la valuación de vehículos en Colombia). Aunque el vehículo esté inscrito en RUNT (Registro Único Nacional de Tránsito), Fasecolda aún no ha procesado ni incluido este registro en su base de datos de valores, lo cual genera una limitación externa que no es controlable por nuestro equipo de soporte.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Recotización manual desde sura.colombia confirmó ausencia de valor en guía Fasecolda. No es posible generar cotizaciones hasta que Fasecolda actualice su base de datos.
+Se realizó recotización manual a través de Sura Colombia, confirmando que Fasecolda aún no dispone de información de valor para esta placa. Debido a esto, el sistema no puede realizar cálculos de prima ni generar cotizaciones hasta que Fasecolda actualice su guía de valores con este registro. Se informó al cliente sobre la causa y tiempos esperados.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Revisión lead y requerimiento.
-- Validación placa en RUNT.
-- Recotización manual sura.colombia.
-- Confirmación ausencia valor en Fasecolda.
-- Cierre del caso.
+1. Revisión detallada del lead y requerimiento inicial.
+2. Validación de existencia de placa en RUNT.
+3. Recotización manual desde plataforma Sura Colombia.
+4. Consulta a base de datos Fasecolda para confirmar ausencia del registro.
+5. Documentación de la limitación técnica identificada.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+N/A
 ```
 
 ### RUNT con mensaje de respuesta de error
