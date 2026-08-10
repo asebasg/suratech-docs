@@ -111,27 +111,6 @@ Nuevo lead creado con datos completos. Continúe gestión en: [URL]
 N/A.
 ```
 
-## Error de renovación por cúmulo
-
-```text
-𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Cliente solicitó renovación de póliza, sin embargo el sistema mostró estado "ESTADO_DESCARTADO", impidiendo procesar la renovación.
-
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘵𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Las fechas de renovación en SFI no coincidían, causando que el sistema rechazara la solicitud de renovación.
-
-𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se verificó en SFI que las fechas de renovación existen y están en orden. Se confirmó que la póliza está en condiciones de ser renovada y se procede a reenviar la solicitud de renovación al sistema.
-
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-1. Verificación de las fechas de renovación de la póliza en SFI.
-2. Validación de que las fechas existen y están en orden.
-3. Reenvío de la solicitud de renovación al sistema.
-
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
-```
-
 ### Estado del vehículo no asegurable
 
 ```text
@@ -154,6 +133,27 @@ Se verificó que el vehículo no cumple con la política de estado del vehículo
 
 𝗡𝗼𝘁𝗮 𝗽𝗮𝗿𝗮 𝗲𝗹 𝗮𝘀𝗲𝘀𝗼𝗿:
 El vehículo no pasa la política de estado del vehículo. No es posible asegurar este vehículo bajo las políticas vigentes. Se recomienda contactar al cliente para informar de esta restricción.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
+```
+
+## Error de renovación por cúmulo
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Cliente solicitó renovación de póliza, sin embargo el sistema mostró estado "ESTADO_DESCARTADO", impidiendo procesar la renovación.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘵𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Las fechas de renovación en SFI no coincidían, causando que el sistema rechazara la solicitud de renovación.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se verificó en SFI que las fechas de renovación existen y están en orden. Se confirmó que la póliza está en condiciones de ser renovada y se procede a reenviar la solicitud de renovación al sistema.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Verificación de las fechas de renovación de la póliza en SFI.
+2. Validación de que las fechas existen y están en orden.
+3. Reenvío de la solicitud de renovación al sistema.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
