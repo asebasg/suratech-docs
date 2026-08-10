@@ -132,6 +132,33 @@ Se verificó en SFI que las fechas de renovación existen y están en orden. Se 
 N/A.
 ```
 
+### Estado del vehículo no asegurable
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Al diligenciar información vehicular, el sistema genera cotizaciones con valores en 0 en pantalla principal, impidiendo completar el proceso de cotización.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘡 𝗜𝗱𝗲𝗻𝘵𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+La consulta a RUNT desde la plataforma falló, impidiendo completar los datos técnicos del vehículo (placa, cilindraje, línea, año) necesarios para validar la política de estado del vehículo y calcular la tarifa correspondiente.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se verificó que el vehículo no cumple con la política de estado del vehículo establecida por la compañía. Esta es una restricción de negocio que el equipo técnico no puede saltarse. No es posible asegurar este vehículo bajo las políticas vigentes.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Revisión de lead y datos del requerimiento.
+2. Confirmación de falla en conexión a RUNT.
+3. Validación de datos técnicos del vehículo.
+4. Confirmación de incumplimiento de política de estado del vehículo.
+5. Eliminación de cotizaciones generadas en 0.
+6. Cierre del caso.
+
+𝗡𝗼𝘁𝗮 𝗽𝗮𝗿𝗮 𝗲𝗹 𝗮𝘀𝗲𝘀𝗼𝗿:
+El vehículo no pasa la política de estado del vehículo. No es posible asegurar este vehículo bajo las políticas vigentes. Se recomienda contactar al cliente para informar de esta restricción.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
+```
+
 ## Error en cobertura duplicadas
 
 ```text
