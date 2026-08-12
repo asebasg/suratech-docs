@@ -23,6 +23,7 @@
 | [Fechas de renovación](#fechas-de-renovación) |
 | [Membresia no activa](#membresia-no-activa) |
 | [Tiempo notificación de pago](#tiempo-notificación-de-pago) |
+| [Cumulo de renovación](#cumulo-de-renovación) |
 
 ---
 
@@ -265,4 +266,29 @@ No se ha proporcionado descripción aún
 
 ```text
 No se ha proporcionado descripción aún
+```
+
+## Cumulo de renovación
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Renovación presentaba estado rechazado por cúmulo, impidiendo continuidad del proceso y habilitación de enlace de pago.
+
+𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Inconsistencia en fechas de vigencia y vencimiento registradas en póliza. Desfase generaba información inconsistente frente a requisitos proceso renovación, causando error de cúmulo.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Fechas de vigencia y vencimiento revisadas en SFI y corregidas. URLs y registros ajustados. Proceso renovación habilitado. Pago puede continuar sin inconvenientes.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+- Revisión fechas vigencia y vencimiento.
+- Validación información activo.
+- Identificación inconsistencia fechas.
+- Corrección fechas en activo.
+- Ajuste URLs renovación.
+- Validación flujo renovación.
+- Verificación funcionamiento pago.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
 ```
