@@ -47,21 +47,23 @@ SAP generó todas las facturas. Proceso normalizado.
 N/A.
 ```
 
-## Reenvío manual de CxC
+## Reenvío manual de CXC
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Incidencia en generación CxC por facturas no emitidas.
+Proceso de generación de CxC (Cuenta por Cobrar) se interrumpió por facturas no emitidas desde SAP.
 
 𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Ausencia temporal de documentos en SAP.
+Intermitencias temporales en SAP impidieron emisión de facturas requeridas para conformación de CxC, bloqueando continuidad del proceso.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-SAP generó todas las facturas exitosamente.
+SAP se normalizó y generó todas las facturas solicitadas exitosamente. Proceso CxC completado sin inconvenientes.
 
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Validación incidente.
-- Confirmación facturas SAP.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘡𝗮𝗱𝗮𝘀:
+- Validación incidente CxC en SFI.
+- Revisión estado SAP.
+- Confirmación generación todas las facturas requeridas.
+- Verificación normalización proceso.
 - Cierre incidente.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
