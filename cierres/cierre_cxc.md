@@ -4,7 +4,7 @@
 
 | Tipología |
 | --- |
-| [Generación de CxC](#generación-de-cxc) |
+| [Generación de CXC](#generación-de-cxc) |
 | [Reenvío manual de CxC](#reenvío-manual-de-cxc) |
 | [Botón nuevo vehículo](#botón-nuevo-vehículo) |
 | [Cambio tipo de vehículo](#cambio-tipo-de-vehículo) |
