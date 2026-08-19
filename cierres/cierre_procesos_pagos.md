@@ -20,3 +20,25 @@ Se revisó el estado de la factura en SFI y se corroboró que los datos están c
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
 ```
+
+# Factura ya paga
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+El asegurado reporta que realizó el pago correspondiente, pero este no se registra como aplicado en el sistema.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+La factura no se sincronizó correctamente en SFI tras recibirse el pago, permaneciendo con estado pendiente a pesar de contar con comprobante válido de la transacción.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se verificó el comprobante de pago adjunto en el incidente y se confirmó su validez. Se actualizó el estado de la factura a "Factura pagada" en SFI.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+1. Verificación de comprobante de pago adjunto en el incidente.
+2. Validación de información en SFI.
+3. Cambio de estado de factura a "Factura pagada".
+4. Confirmación de actualización exitosa.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
+N/A.
+```
