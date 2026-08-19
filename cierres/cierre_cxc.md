@@ -26,22 +26,24 @@
 
 ---
 
-## Generación de CxC
+## Generación de CXC
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-[Descripción incidencia en generación CxC]
+Se reportó incidencia en la generación de CxC (Cuenta por Cobrar), donde una o varias facturas no fueron emitidas correctamente desde SAP, afectando la continuidad del proceso de cobro al asegurado.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Ausencia temporal de documentos en SAP para conformar CxC.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Se identificó ausencia temporal de documentos en SAP necesarios para conformar la CxC, lo cual impidió que el sistema completara la generación de las facturas correspondientes dentro del ciclo contable esperado.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-SAP generó todas las facturas. Proceso normalizado.
+Se validó el estado del proceso en SAP y se confirmó que el sistema generó exitosamente todas las facturas pendientes. Con esto, el proceso de CxC quedó normalizado y disponible para continuar con el flujo habitual de cobro.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-- Validación incidente CxC.
-- Confirmación facturas en SAP.
-- Cierre del incidente.
+1. Validación del incidente reportado en CxC.
+2. Revisión del estado de documentos en SAP.
+3. Confirmación de generación exitosa de todas las facturas requeridas.
+4. Verificación de normalización del proceso.
+5. Cierre del incidente.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
