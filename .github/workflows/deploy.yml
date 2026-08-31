@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [main, master]
+    branches: [consultas-sfi-knowledge]
   workflow_dispatch:
 
 permissions:
