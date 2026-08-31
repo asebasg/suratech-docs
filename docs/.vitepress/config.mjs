@@ -5,8 +5,12 @@ export default defineConfig({
   description: "Documentación y recursos técnicos",
   base: "/suratech-docs/",
   lang: "es",
+  head: [
+    ['link', { rel: 'icon', href: '/suratech-docs/book-search.ico' }]
+  ],
   
   themeConfig: {
+    logo: '/book-search.ico',
     search: {
       provider: 'local',
       options: {
