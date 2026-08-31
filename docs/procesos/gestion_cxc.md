@@ -1,4 +1,4 @@
-# Reenvío de CXC — Póliza de Renovación
+# Gestión de CXC
 
 > **Nota:** Cambiar el nombre del producto en **plural y en español** según el código de producto:
 >
@@ -69,15 +69,7 @@ WHERE vlocity_ins_fsc__InsurancePolicyId__r.Name IN (LISTADO_POLIZAS_REENVIO_CXC
 
 ---
 
-## 4. Generar Carátulas
-
-```apex
-SURAPaymentManager.sendCaratulaMarketing('0YTQo000000QSQTOA4');
-```
-
----
-
-## 5. Consultar Generación de CXC por Fecha
+## 4. Consultar Generación de CXC por Fecha
 
 ```sql
 SELECT Id, Name, FORMAT(CreatedDate)
@@ -89,7 +81,7 @@ ORDER BY CreatedDate DESC
 
 ---
 
-## 6. Verificar CXC de Renovación (Hoy)
+## 5. Verificar CXC de Renovación (Hoy)
 
 ```sql
 SELECT Id, Name, FORMAT(CreatedDate)
