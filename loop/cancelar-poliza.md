@@ -2,12 +2,12 @@
 1. Ejecutar la query con las pólizas requeridas:
 
 ```soql
-SELECT Name, CancellationReason, CancellationReasonType, SURAFecha_de_solicitud_de_cancelacion__c
+SELECT Id, Name, CancellationReason, CancellationReasonType, SURAFecha_de_solicitud_de_cancelacion__c
 FROM InsurancePolicy 
 WHERE Name  IN (
     '584410097653',
     '584410096590',
-    '584410102524'
+    '540100030882'
 )
 ```
 
