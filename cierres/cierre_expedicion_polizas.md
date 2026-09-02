@@ -116,27 +116,21 @@ N/A.
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Al diligenciar información vehicular, el sistema genera cotizaciones con valores en 0 en pantalla principal, impidiendo completar el proceso de cotización.
+Se recibió reporte de soporte indicando la imposibilidad de generar una cotización en el sistema.
 
-𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘡 𝗜𝗱𝗲𝗻𝘵𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-La consulta a RUNT desde la plataforma falló, impidiendo completar los datos técnicos del vehículo (placa, cilindraje, línea, año) necesarios para validar la política de estado del vehículo y calcular la tarifa correspondiente.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+El registro de prospecto (Lead) se encuentra en estado "Estado del vehiculo no asegurable", indicando que el vehículo no cumple con las políticas de suscripción de la compañía. Existe una limitación de alcance para el equipo de soporte técnico, ya que no es posible omitir o modificar reglas de negocio ni políticas comerciales establecidas.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se verificó que el vehículo no cumple con la política de estado del vehículo establecida por la compañía. Esta es una restricción de negocio que el equipo técnico no puede saltarse. No es posible asegurar este vehículo bajo las políticas vigentes.
+Se consultó el estado del registro en Salesforce, confirmando que la restricción responde al cumplimiento estricto de las políticas internas sobre el vehículo, lo que impide continuar con el flujo de cotización.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-1. Revisión de lead y datos del requerimiento.
-2. Confirmación de falla en conexión a RUNT.
-3. Validación de datos técnicos del vehículo.
-4. Confirmación de incumplimiento de política de estado del vehículo.
-5. Eliminación de cotizaciones generadas en 0.
-6. Cierre del caso.
 
-𝗡𝗼𝘁𝗮 𝗽𝗮𝗿𝗮 𝗲𝗹 𝗮𝘀𝗲𝘀𝗼𝗿:
-El vehículo no pasa la política de estado del vehículo. No es posible asegurar este vehículo bajo las políticas vigentes. Se recomienda contactar al cliente para informar de esta restricción.
+* Verificación del estado del Lead y validación de reglas de suscripción en Salesforce.
+* Confirmación del motivo de bloqueo por políticas comerciales de asegurabilidad del vehículo.
+* Cierre del caso al evidenciarse la solución satisfactoria.
 
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼: N/A
 ```
 
 ## Error de renovación por cúmulo
