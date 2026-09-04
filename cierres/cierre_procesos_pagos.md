@@ -14,7 +14,7 @@ Se revisó el estado de la factura en SFI y se corroboró que los datos están c
 1. Validación del estado de la factura en SFI.
 2. Confirmación de datos completos y válidos.
 3. Fuerza de generación de factura desde SAP.
-4. Actualización manual de estado a "Factura disponible" en SFI.
+4. Actualización manual de estado a "Factura generada en SAP" en SFI.
 5. Confirmación de que el asegurado puede proceder con el pago.
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
