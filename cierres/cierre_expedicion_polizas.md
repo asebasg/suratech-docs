@@ -24,6 +24,7 @@
 | [Membresia no activa](#membresia-no-activa) |
 | [Tiempo notificación de pago](#tiempo-notificación-de-pago) |
 | [Cumulo de renovación](#cumulo-de-renovación) |
+| [Cancelación de pólizas](#cancelación-de-pólizas) |
 
 ---
 
@@ -285,4 +286,27 @@ Fechas de vigencia y vencimiento revisadas en SFI y corregidas. URLs y registros
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
+```
+
+# Cancelación de pólizas
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se recibió requerimiento operativo solicitando la cancelación de la póliza en el sistema y la respectiva anulación o actualización del estado de los recibos y cobros asociados para evitar facturaciones indebidas.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Solicitud de terminación de la vigencia del seguro tramitada por el asegurado o bloqueo en el flujo estándar de cancelación que impidió el procesamiento automático desde el módulo habitual.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se consultaron los registros correspondientes en la plataforma, procediendo con la aplicación de la cancelación manual de la póliza y la actualización de los recibos pendientes a estado cancelado.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
+* Validación del estado y cronograma de facturación de la póliza en la plataforma.
+* Ejecución de la cancelación manual de la póliza con la fecha efectiva correspondiente.
+* Actualización y cancelación de los recibos y facturas pendientes en el sistema.
+* Verificación del estado inactivo y cancelado de los registros.
+* Cierre del caso al evidenciarse la solución satisfactoria.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼: N/A
 ```
