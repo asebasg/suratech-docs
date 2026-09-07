@@ -1,4 +1,4 @@
-# Mensajes de cierre para incidente: Error en el ingreso de los datos
+<img width="421" height="30" alt="image" src="https://github.com/user-attachments/assets/b10d54f4-4866-4670-bd14-14ebf12ef6e1" /># Mensajes de cierre para incidente: Error en el ingreso de los datos
 
 ## Tabla de Tipologías de Resolución
 
@@ -18,6 +18,7 @@
 | [Cambio de teléfono](#cambio-de-teléfono) |
 | [Valor fasecolda en cotización](#valor-fasecolda-en-cotización) |
 | [Error en fecha de vigencia/vencimiento](#error-en-fecha-de-vigenciavencimiento) |
+| [Cambio en dirección del inmueble](#cambio-en-dirección-del-inmueble) |
 
 ---
 
@@ -240,4 +241,26 @@ Fechas de inicio y fin de vigencia corregidas en lead. Carátula regenerada con 
 
 𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
 N/A.
+```
+
+## Cambio en dirección del inmueble
+
+```text
+𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
+Se recibió solicitud de soporte requiriendo la corrección de los datos de ubicación y nomenclatura del inmueble asociado al registro del cliente, debido a inconsistencias en la dirección previamente registrada.
+
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+Discrepancia en la información domiciliaria almacenada en los campos del registro (Lead/Contrato), lo que generaba inconsistencia entre los datos reales del inmueble y los registrados en el sistema.
+
+𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
+Se ingresó al registro correspondiente en la plataforma, se verificaron los datos proporcionados y se procedió con la actualización exitosa de la dirección del inmueble, normalizando la información para los procesos y documentos asociados.
+
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
+
+* Validación y localización del registro afectado en el sistema.
+* Actualización y corrección de la nomenclatura y detalles de la dirección del inmueble.
+* Verificación de la consistencia de los datos actualizados en el sistema.
+* Cierre del caso al evidenciarse la solución satisfactoria.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼: N/A
 ```
