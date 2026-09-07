@@ -1,3 +1,4 @@
+# Guía de Cancelación Manual de Pólizas
 
 1. Ejecutar la query con las pólizas requeridas:
 
@@ -6,8 +7,7 @@ SELECT Id, Name, CancellationReason, CancellationReasonType, SURAFecha_de_solici
 FROM InsurancePolicy 
 WHERE Name  IN (
     '584410097653',
-    '584410096590',
-    '540100030882'
+    '584410096590'
 )
 ```
 
@@ -30,3 +30,15 @@ Al correr la query nuevamente debe aparecer así:
 
 <img width="1136" height="252" alt="image" src="https://github.com/user-attachments/assets/f49fa1d8-60b2-44c3-b63a-b25f387f6f61" />
 
+## Cancelar recibos
+
+1. Ejecutar la query con todas las facturas de la póliza:
+
+> Reemplazar el valor `IdPoliza` por la ID de la póliza la cual se quieren cancelar los recibos.
+
+```soql
+SELECT Id, SURANumeroDocumentoPago__c, vlocity_ins_fsc__Status__c, SURAStatusIntegration__c FROM vlocity_ins_fsc__InsurancePolicyPaymentScheduleEntry__c  WHERE vlocity_ins_fsc__InsurancePolicyId__r.Id = 'IdPoliza'
+```
+
+2. Copiar y pegar el resultado en Excel, y cambiarles el estado a `Cancelado`.
+3. Ir a Data import y hacer la actualización.
