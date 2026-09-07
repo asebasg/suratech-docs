@@ -1,4 +1,4 @@
-<img width="421" height="30" alt="image" src="https://github.com/user-attachments/assets/b10d54f4-4866-4670-bd14-14ebf12ef6e1" /># Mensajes de cierre para incidente: Error en el ingreso de los datos
+# Mensajes de cierre para incidente: Error en el ingreso de los datos
 
 ## Tabla de Tipologías de Resolución
 
