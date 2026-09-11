@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/suratech-docs/',
   lang: 'es-ES',
   title: "SuraTech Docs",
   description: "Base de Conocimiento",
