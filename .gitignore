@@ -1,0 +1,39 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# VitePress / Vite builds y cache
+cache/
+dist/
+.temp/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+**/.vitepress/cache/
+**/.vitepress/dist/
+
+# Entorno y variables locales
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales y respaldos
+*.tmp
+*.temp
+*~
