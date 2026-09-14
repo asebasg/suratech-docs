@@ -73,6 +73,8 @@ export default defineConfig({
         items: [
           { text: 'Cierre Incidentes', link: '/templates/cierre_incidentes' },
           { text: 'Comentarios Strikes', link: '/templates/comentarios_strikes' },
+          { text: 'Comunicaciones con la BU', link: '/templates/chats/comunicaciones-con-bu' },
+          { text: 'Incidentes y Novedades', link: '/templates/chats/incidentes-y-novedades' },
           { text: 'Mensaje Resolución IA', link: '/templates/mensaje_resolucion_ia' },
           { text: 'Tipologías Resolución', link: '/templates/tipologias_resolucion' }
         ]
