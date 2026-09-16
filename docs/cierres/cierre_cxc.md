@@ -30,23 +30,24 @@
 
 ```text
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
-Se reportó incidencia en la generación de CxC (Cuenta por Cobrar), donde una o varias facturas no fueron emitidas correctamente desde SAP, afectando la continuidad del proceso de cobro al asegurado.
+Se reportó incidencia en la generación de CxC (Cuenta por Cobrar), donde una o varias facturas no fueron procesadas hacia SAP, afectando la continuidad del proceso de cobro al asegurado.
 
 𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Se identificó ausencia temporal de documentos en SAP necesarios para conformar la CxC, lo cual impidió que el sistema completara la generación de las facturas correspondientes dentro del ciclo contable esperado.
+El registro de la factura permaneció en estado "Pendiente envío a SAP", impidiendo la transmisión oportuna de los documentos contables hacia el sistema financiero y bloqueando la conformación de la CxC.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-Se validó el estado del proceso en SAP y se confirmó que el sistema generó exitosamente todas las facturas pendientes. Con esto, el proceso de CxC quedó normalizado y disponible para continuar con el flujo habitual de cobro.
+Se gestionó y validó el envío de la información hacia SAP, confirmándose la recepción y emisión exitosa de todas las facturas pendientes. Con esto, el proceso de CxC quedó normalizado y disponible para continuar con el flujo habitual de cobro.
 
 𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
-1. Validación del incidente reportado en CxC.
-2. Revisión del estado de documentos en SAP.
-3. Confirmación de generación exitosa de todas las facturas requeridas.
-4. Verificación de normalización del proceso.
-5. Cierre del incidente.
 
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+* Validación del incidente reportado en CxC.
+* Verificación del estado "Pendiente envío a SAP" en las facturas afectadas.
+* Procesamiento y sincronización de los registros hacia SAP.
+* Confirmación de generación exitosa de todas las facturas requeridas en el sistema financiero.
+* Verificación de normalización del proceso.
+* Cierre del caso al evidenciarse la solución satisfactoria.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼: N/A
 ```
 
 ## Reenvío manual de CXC
@@ -55,21 +56,22 @@ N/A.
 𝗥𝗲𝘀𝘂𝗺𝗲𝗻 𝗱𝗲 𝗹𝗮 𝘀𝗶𝘁𝘂𝗮𝗰𝗶ó𝗻:
 Proceso de generación de CxC (Cuenta por Cobrar) se interrumpió por facturas no emitidas desde SAP.
 
-𝗖𝗮𝘂𝘀𝗮 𝗿𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
-Intermitencias temporales en SAP impidieron emisión de facturas requeridas para conformación de CxC, bloqueando continuidad del proceso.
+𝗖𝗮𝘂𝘀𝗮 𝗥𝗮í𝘇 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗮:
+El registro de la factura permaneció en estado "Pendiente generación factura SAP", lo que impidió la sincronización oportuna y la conformación de la CxC, bloqueando la continuidad del flujo en el sistema.
 
 𝗥𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻:
-SAP se normalizó y generó todas las facturas solicitadas exitosamente. Proceso CxC completado sin inconvenientes.
+Se reenvió la factura a SAP y se normalizó la comunicación y generó todas las facturas solicitadas exitosamente. Proceso CxC completado sin inconvenientes.
 
-𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘡𝗮𝗱𝗮𝘀:
-- Validación incidente CxC en SFI.
-- Revisión estado SAP.
-- Confirmación generación todas las facturas requeridas.
-- Verificación normalización proceso.
-- Cierre incidente.
+𝗔𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗱𝗮𝘀:
 
-𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼:
-N/A.
+* Validación del incidente de CxC en SFI.
+* Verificación del estado "Pendiente generación factura SAP" en los registros.
+* Reenvío manual de la factura a SAP.
+* Confirmación de la generación efectiva de todas las facturas requeridas.
+* Verificación de la normalización del proceso.
+* Cierre del caso al evidenciarse la solución satisfactoria.
+
+𝗘𝘀𝗰𝗮𝗹𝗮𝗱𝗼: N/A
 ```
 
 ## Botón nuevo vehículo
